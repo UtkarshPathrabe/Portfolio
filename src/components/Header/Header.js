@@ -1,7 +1,6 @@
 import Link from 'next/link';
 import React from 'react';
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin, AiFillFacebook, AiFillTwitterCircle } from 'react-icons/ai';
-import { MdDeveloperMode } from 'react-icons/md';
 
 import { Container, Div1, Div2, Div3, NavLink, SocialIcons, Span } from './HeaderStyles';
 
@@ -10,7 +9,7 @@ const Header = () =>  (
     <Div1>
       <Link href='/'>
         <a style={{display: 'flex', alignItems: 'center', color: 'white', marginBottom: '20px'}}>
-          <MdDeveloperMode size='3rem' /> <Span>Utkarsh Pathrabe</Span>
+          <Span>Utkarsh</Span>
         </a>
       </Link>
     </Div1>
@@ -32,7 +31,7 @@ const Header = () =>  (
       <li>
         <Link href='#about'>
           <NavLink>
-            About Me
+            About
           </NavLink>
         </Link>
       </li>
