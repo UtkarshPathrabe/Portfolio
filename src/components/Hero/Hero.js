@@ -14,7 +14,7 @@ const Hero = (props) => (
       <SectionText>
         Senior System Software Engineer at NVIDIA
       </SectionText>
-      <Link href='#about'>
+      <Link href='#about' passHref>
         <Button>Learn More</Button>
       </Link>
     </LeftSection>
