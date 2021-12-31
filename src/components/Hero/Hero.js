@@ -6,13 +6,13 @@ import Button from '../../styles/GlobalComponents/Button';
 import { LeftSection } from './HeroStyles';
 
 const Hero = (props) => (
-  <Section row nopadding>
+  <Section row>
     <LeftSection>
       <SectionTitle main center>
         Utkarsh Pathrabe
       </SectionTitle>
       <SectionText>
-        Senior System Software Engineer at NVIDIA
+        Senior System Software Engineer (Autonomous Vehicles) at NVIDIA
       </SectionText>
       <Link href='#about' passHref>
         <Button>Learn More</Button>
