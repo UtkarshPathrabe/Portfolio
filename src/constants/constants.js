@@ -10,7 +10,7 @@ export const projects = [
   },
   {
     title: 'Realtor',
-    description:"This is a Real-Estate Application created using NextJS and ReactJS. It lists all the real estate available for sale and rent in UAE.",
+    description: "This is a Real-Estate Application created using NextJS and ReactJS. It lists all the real estate available for sale and rent in UAE.",
     image: '/images/2.jpg',
     tags: ['React', 'NextJS', 'RapidAPI'],
     source: 'https://github.com/UtkarshPathrabe/utkarsh_realestate',
