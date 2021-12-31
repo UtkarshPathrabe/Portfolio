@@ -10,4 +10,4 @@ const NavDropDown = (props) => (
   </div>
 );
 
-export default NavDropDown
+export default NavDropDown;
