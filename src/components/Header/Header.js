@@ -43,15 +43,6 @@ const Header = () =>  (
       <SocialIcons href='https://www.linkedin.com/in/utkarshpathrabe/' target='_blank'>
         <AiFillLinkedin size='3rem' />
       </SocialIcons>
-      <SocialIcons href='https://www.instagram.com/utkarsh_pathrabe/' target='_blank'>
-        <AiFillInstagram size='3rem' />
-      </SocialIcons>
-      <SocialIcons href='https://www.facebook.com/utkarshpathrabe/' target='_blank'>
-        <AiFillFacebook size='3rem' />
-      </SocialIcons>
-      <SocialIcons href='https://twitter.com/UtkarshPathrabe' target='_blank'>
-        <AiFillTwitterCircle size='3rem' />
-      </SocialIcons>
     </Div3>
   </Container>
 );
