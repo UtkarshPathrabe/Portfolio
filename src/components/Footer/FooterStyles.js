@@ -43,20 +43,20 @@ export const LinkItem = styled.a`
 `
 
 export const SocialIconsContainer = styled.div`
-max-width: 1040px;
-display: flex;
-justify-content: space-between;
+	max-width: 1040px;
+	display: flex;
+	justify-content: space-between;
 
-@media ${props => props.theme.breakpoints.md}{
-  display: flex;
-  justify-content: space-between;
-}
+	@media ${props => props.theme.breakpoints.md}{
+		display: flex;
+		justify-content: space-between;
+	}
 
-@media ${props => props.theme.breakpoints.sm}{
-  display: flex;
-	width: 100%;
-  flex-direction: column;
-}
+	@media ${props => props.theme.breakpoints.sm}{
+		display: flex;
+		width: 100%;
+		flex-direction: column;
+	}
 `
 
 export const CompanyContainer = styled.div`
@@ -65,7 +65,6 @@ export const CompanyContainer = styled.div`
 	flex-wrap: wrap;
 	margin-right: auto;
 	
-
 	@media ${props => props.theme.breakpoints.md}{
 		flex-direction: column;
 		align-items: baseline;
@@ -78,7 +77,6 @@ export const CompanyContainer = styled.div`
 		align-items: center;
 	}
 `
-
 
 export const Slogan = styled.p`
 	color: rgba(255, 255, 255, 0.5);
@@ -102,7 +100,7 @@ export const Slogan = styled.p`
 
 export const SocialContainer = styled.div`
 	display: flex;
-  align-items: center;
+  	align-items: center;
 
 	@media ${props => props.theme.breakpoints.md}{
 		justify-content: center;
@@ -114,10 +112,10 @@ export const SocialContainer = styled.div`
 
 export const LinkList = styled.ul`
 	border-top: 1px solid rgba(255, 255, 255, 0.1);
-  display: grid;
+  	display: grid;
 	grid-template-columns: repeat(3, minmax(85px, 220px));
 	gap: 40px;
-  padding: 40px 0 28px;
+  	padding: 40px 0 28px;
 
 	@media ${props => props.theme.breakpoints.lg} {
 		padding: 32px 0 16px;
