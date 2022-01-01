@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 
-import { CarouselButton, CarouselButtonDot, CarouselButtons, CarouselContainer, CarouselItem, CarouselItemImg, CarouselItemText, CarouselItemTitle, CarouselMobileScrollNode } from './TimeLineStyles';
+import { Boxes, ProfileImg, CarouselButton, CarouselButtonDot, CarouselButtons, CarouselContainer, CarouselItem, CarouselItemImg, CarouselItemText, CarouselItemTitle, CarouselMobileScrollNode } from './TimeLineStyles';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { TimeLineData } from '../../constants/constants';
 
@@ -44,11 +44,14 @@ const Timeline = () => {
     <Section id='about'>
       <SectionDivider />
       <SectionTitle main>About Me</SectionTitle>
-      <SectionText>
-        I am a Senior System Software Engineer at NVIDIA Graphics Pvt. Ltd., Pune, India. <br />
-        I am Computer Science Graduate from BITS Pilani, Rajasthan, India. <br />
-        I like solving competetive coding problems, exploring new technologies, drawing, painting, travelling and gaming.
-      </SectionText>
+      <Boxes>
+        <ProfileImg src={'https://avatars.githubusercontent.com/u/7246712?v=4'} alt={'Profile Picture'} />
+        <SectionText style={{ margin: 'auto' }}>
+          I am a Senior System Software Engineer at NVIDIA Graphics Pvt. Ltd., Pune, India. <br />
+          I am Computer Science Graduate from BITS Pilani, Rajasthan, India. <br />
+          I like solving competetive coding problems, exploring new technologies, drawing, painting, travelling and gaming.
+        </SectionText>
+      </Boxes>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
           {TimeLineData.map((item, index) => (
