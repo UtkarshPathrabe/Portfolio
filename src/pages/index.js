@@ -3,6 +3,7 @@ import Head from 'next/head';
 import Acomplishments from '../components/Acomplishments/Acomplishments';
 import BgAnimation from '../components/BackgroundAnimation/BackgroundAnimation';
 import Hero from '../components/Hero/Hero';
+import Paintings from '../components/Paintings/Paintings';
 import Projects from '../components/Projects/Projects';
 import Technologies from '../components/Technologies/Technologies';
 import Timeline from '../components/TimeLine/TimeLine';
@@ -29,6 +30,7 @@ const Home = () => {
         <Technologies />
         <Timeline />
         <Acomplishments />
+        <Paintings />
       </Layout>
     </>
   );
