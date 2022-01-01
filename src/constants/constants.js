@@ -2,7 +2,7 @@ export const projects = [
   {
     title: 'Travel Advisor',
     description: "This is an advanced Travel Companion Application created using ReactJS. It list all the nearby hotels, restaurants and attractions.",
-      image: '/images/1.png',
+      image: '/images/projects/1.png',
       tags: ['Express', 'React', 'Node', 'RapidAPI', 'Maps'],
     source: 'https://github.com/UtkarshPathrabe/travel_advisor',
     visit: 'https://utkarsh-travel-advisor.netlify.app/',
@@ -11,7 +11,7 @@ export const projects = [
   {
     title: 'Realtor',
     description: "This is a Real-Estate Application created using NextJS and ReactJS. It lists all the real estate available for sale and rent in UAE.",
-    image: '/images/2.jpg',
+    image: '/images/projects/2.jpg',
     tags: ['React', 'NextJS', 'RapidAPI'],
     source: 'https://github.com/UtkarshPathrabe/utkarsh_realestate',
     visit: 'https://utkarsh-realestate.vercel.app/',
@@ -20,7 +20,7 @@ export const projects = [
   {
     title: 'Realtime Chat',
     description: "This Realtime Chat Application is using ReactJS on the front end and NodeJS + Socket.io web socket library on the back end.",
-      image: '/images/3.png',
+      image: '/images/projects/3.png',
       tags: ['React', 'SocketIO', 'Express', 'Node'],
     source: 'https://github.com/UtkarshPathrabe/utkarsh-react-chat-application',
     visit: 'https://utkarsh-react-chat-app.netlify.app/',
@@ -29,7 +29,7 @@ export const projects = [
   {
     title: 'Speech Recognition',
     description: "This application is using SpeechRecognition interface of the Web Speech API which enables to incorporate voice data into web apps.",
-    image: '/images/4.png',
+    image: '/images/projects/4.png',
     tags: ['JavaScript', 'Web Speech API'],
     source: 'https://github.com/UtkarshPathrabe/Speech-Recognition',
     visit: 'https://speech-recognition-js.herokuapp.com/',
@@ -38,7 +38,7 @@ export const projects = [
   {
     title: 'Thanos Portal Effect',
     description: "Thanos Portal Effect created using Three.js",
-    image: '/images/7.png',
+    image: '/images/projects/7.png',
     tags: ['ThreeJS', 'JavaScript'],
     source: 'https://github.com/UtkarshPathrabe/Thanos-Portal-Effect-using-Three.js',
     visit: 'https://thanos-portal.herokuapp.com/',
@@ -47,7 +47,7 @@ export const projects = [
   {
     title: 'Basic ThreeJS',
     description: "Basic Three.JS project for learning purpose",
-    image: '/images/8.png',
+    image: '/images/projects/8.png',
     tags: ['ThreeJS', 'JavaScript'],
     source: 'https://github.com/UtkarshPathrabe/Basic-THREE.JS',
     visit: 'https://utkarshpathrabe.github.io/Basic-THREE.JS/',
@@ -56,7 +56,7 @@ export const projects = [
   {
     title: 'Photo Booth',
     description: "This application allows users to capture their photos using various available filters.",
-    image: '/images/5.png',
+    image: '/images/projects/5.png',
     tags: ['JavaScript'],
     source: 'https://github.com/UtkarshPathrabe/Photo-Booth',
     visit: 'https://photo-booth-js.herokuapp.com/',
@@ -65,7 +65,7 @@ export const projects = [
   {
     title: 'World Clock',
     description: "This application shows the current time in different time zones of the world.",
-    image: '/images/6.png',
+    image: '/images/projects/6.png',
     tags: ['JavaScript'],
     source: 'https://github.com/UtkarshPathrabe/World-Clock-Time-Display',
     visit: 'https://utkarshpathrabe.github.io/World-Clock-Time-Display/',
