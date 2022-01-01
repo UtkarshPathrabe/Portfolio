@@ -13,7 +13,7 @@ const Home = () => {
   return (
     <>
       <Head>
-        <meta charset="utf-8"></meta>
+        <meta charSet="utf-8"></meta>
         <meta content="width=device-width, initial-scale=1.0" name="viewport"></meta>
         <title>Utkarsh Pathrabe</title>
         <meta content="Utkarsh Pathrabe's personal website" name="description"></meta>
