@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 
 import Footer from '../components/Footer/Footer';
-import Header from '../components/Header/Header';
 import Toolbar from '../components/Toolbar/Toolbar';
 import SideDrawer from '../components/SideDrawer/SideDrawer';
 import Backdrop from '../components/Backdrop/Backdrop';
