@@ -107,8 +107,19 @@ export const SocialContainer = styled.div`
 		padding-right: 16px;
 		flex-wrap: wrap;
 	}
-`
+`;
 
+export const SocialIcons = styled.a`
+    transition: 0.3s ease;
+    color: white;
+    border-radius: 20px;
+    padding: 8px;
+    &:hover {
+        background-color: #212d45;
+        transform: scale(1.1);
+        cursor: pointer;
+    }
+`;
 
 export const LinkList = styled.ul`
 	border-top: 1px solid rgba(255, 255, 255, 0.1);
