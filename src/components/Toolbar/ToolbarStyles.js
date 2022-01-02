@@ -20,7 +20,10 @@ export const ToolbarNavigation = styled.nav`
     display: flex;
     align-items: center;
     height: 100%;
-    padding: 0 1rem;
+    margin: 0 5rem;
+    @media ${(props) => props.theme.breakpoints.md} {
+        margin: 0 1.5rem;
+    }
 `;
 
 export const DrawerToggleButtonContainer = styled.div`
