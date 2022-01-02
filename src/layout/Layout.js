@@ -5,7 +5,7 @@ import Header from '../components/Header/Header';
 import Toolbar from '../components/Toolbar/Toolbar';
 import SideDrawer from '../components/SideDrawer/SideDrawer';
 import Backdrop from '../components/Backdrop/Backdrop';
-import { Container } from './LayoutStyles';
+import { Container, MainContainer } from './LayoutStyles';
 
 export const Layout = ({children}) => {
   const [sideDrawerOpen, setSideDrawerOpen] = useState(false);
@@ -26,11 +26,11 @@ export const Layout = ({children}) => {
   return (
     <Container>
       <Toolbar toggleButtonHandler={drawerToggleClickHandler} />
-      <SideDrawer isOpen={sideDrawerOpen} />
+      <SideDrawer isOpen={sideDrawerOpen} itemClickHandler={backdropClickHandler} />
       {backdrop}
-      <main style={{ marginTop: '64px' }}>
+      <MainContainer>
         {children}
-      </main>
+      </MainContainer>
       <Footer/>
     </Container>
   )
