@@ -2,7 +2,7 @@ import React from "react";
 import Link from 'next/link';
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin, AiFillFacebook, AiFillTwitterCircle } from 'react-icons/ai';
 
-import { ToolbarContainer, ToolbarNavigation, DrawerToggleButtonContainer, ToolbarLogo, ToolbarLogoNavLink, ToolbarNavigationItems, ToolbarNavigationItemsList, ToolbarNavigationItem, NavLink, Spacer, SocialIconsContainer, SocialIcons } from './ToolbarStyles.js';
+import { Img, ToolbarContainer, ToolbarNavigation, DrawerToggleButtonContainer, ToolbarLogo, ToolbarLogoNavLink, ToolbarNavigationItems, ToolbarNavigationItemsList, ToolbarNavigationItem, NavLink, Spacer, SocialIconsContainer, SocialIcons } from './ToolbarStyles.js';
 import { toolbarItemsList } from '../../constants/toolbar';
 import DrawerToggleButton from "../SideDrawer/DrawerToggleButton.js";
 
@@ -15,7 +15,7 @@ const Toolbar = ({ toggleButtonHandler }) => (
             <ToolbarLogo>
                 <Link href='#' passHref>
                     <ToolbarLogoNavLink>
-                        Home
+                        <Img src={'/images/logo.png'} alt={'navigation-logo'} /> Utkarsh
                     </ToolbarLogoNavLink>
                 </Link>
             </ToolbarLogo>
