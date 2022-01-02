@@ -21,6 +21,12 @@ export const SideDrawerNavigationItems = styled.ul`
     flex-direction: column;
     justify-content: flex-start;
     margin: 64px 1rem;
+    @media ${(props) => props.theme.breakpoints.md} {
+        margin: 48px 1rem;
+    }
+    @media ${(props) => props.theme.breakpoints.sm} {
+        margin: 32px 1rem;
+    }
 `;
 
 export const SideDrawerNavigationItem = styled.li`
