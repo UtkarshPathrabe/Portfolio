@@ -6,3 +6,13 @@ export const Container = styled.div`
     margin: auto;
     height: 100%;
 `;
+
+export const MainContainer = styled.main`
+    margin-top: 64px;
+    @media ${(props) => props.theme.breakpoints.sm} {
+        margin-top: 32px;
+    }
+    @media ${(props) => props.theme.breakpoints.md} {
+        margin-top: 48px;
+    }
+`;
