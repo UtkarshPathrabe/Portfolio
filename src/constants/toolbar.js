@@ -12,6 +12,10 @@ export const toolbarItemsList = [
         url: '#about',
     },
     {
+        label: 'Accomplishments',
+        url: '#accomplishments',
+    },
+    {
         label: 'Paintings',
         url: '#paintings',
     }
