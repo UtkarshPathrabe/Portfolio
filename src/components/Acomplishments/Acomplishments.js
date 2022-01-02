@@ -10,7 +10,7 @@ const data = [
 ];
 
 const Acomplishments = () => (
-  <Section>
+  <Section id='accomplishments'>
     <SectionDivider />
     <SectionTitle main>Personal Accomplishments</SectionTitle>
     <Boxes>
