@@ -1,15 +1,15 @@
 export const toolbarItemsList = [
     {
+        label: 'About',
+        url: '#about',
+    },
+    {
         label: 'Projects',
         url: '#projects',
     },
     {
         label: 'Technologies',
         url: '#tech',
-    },
-    {
-        label: 'About',
-        url: '#about',
     },
     {
         label: 'Accomplishments',
