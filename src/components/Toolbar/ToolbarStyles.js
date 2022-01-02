@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const ToolbarContainer = styled.header`
     position: fixed;
     width: 100%;
-    background: #060d1c;
+    background: #01040a;
     height: 64px;
     top: 0;
     left: 0;
@@ -89,4 +89,23 @@ export const NavLink = styled.a`
 
 export const Spacer = styled.div`
     flex: 1;
+`;
+
+export const SocialIconsContainer = styled.div`
+    display: flex;
+    @media ${(props) => props.theme.breakpoints.lg} {
+        display: none;
+    }
+`;
+
+export const SocialIcons = styled.a`
+    transition: 0.3s ease;
+    color: white;
+    border-radius: 20px;
+    padding: 8px;
+    &:hover {
+        background-color: #212d45;
+        transform: scale(1.1);
+        cursor: pointer;
+    }
 `;
