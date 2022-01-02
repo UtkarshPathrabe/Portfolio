@@ -45,6 +45,8 @@ export const ToolbarLogoNavLink = styled.a`
     line-height: 32px;
     color: rgba(255, 255, 255, 0.75);
     transition: 0.4s ease;
+    display: flex;
+    align-items: center;
     &:hover {
         color: #fff;
         opacity: 1;
@@ -52,6 +54,17 @@ export const ToolbarLogoNavLink = styled.a`
     }
     @media ${(props) => props.theme.breakpoints.sm} {
         padding: 0.5rem;
+    }
+`;
+
+export const Img = styled.img`
+    height: 50px;
+    padding: 0 1rem 0 0;
+    @media ${(props) => props.theme.breakpoints.md} {
+        height: 40px !important;
+    }
+    @media ${(props) => props.theme.breakpoints.sm} {
+        height: 30px !important;
     }
 `;
 
