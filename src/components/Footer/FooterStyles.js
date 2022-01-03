@@ -1,4 +1,4 @@
-import styled from "styled-components"
+import styled from "styled-components";
 
 export const FooterWrapper = styled.section`
   width: calc(100% - 96px);
@@ -11,7 +11,7 @@ export const FooterWrapper = styled.section`
     padding: 0 16px 48px;
     width: calc(100vw - 32px);
   }
-`
+`;
 
 export const LinkItem = styled.a`
 	font-size: 18px;
@@ -40,7 +40,7 @@ export const LinkItem = styled.a`
 		display: flex;
 		align-items: center;
 	}
-`
+`;
 
 export const SocialIconsContainer = styled.div`
 	max-width: 1040px;
@@ -57,7 +57,7 @@ export const SocialIconsContainer = styled.div`
 		width: 100%;
 		flex-direction: column;
 	}
-`
+`;
 
 export const CompanyContainer = styled.div`
   display: flex;
@@ -76,7 +76,7 @@ export const CompanyContainer = styled.div`
 		margin: 0 0 32px;
 		align-items: center;
 	}
-`
+`;
 
 export const Slogan = styled.p`
 	color: rgba(255, 255, 255, 0.5);
@@ -96,7 +96,7 @@ export const Slogan = styled.p`
 		font-size: 14px;
 		min-width: 100px;
 	}
-`
+`;
 
 export const SocialContainer = styled.div`
 	display: flex;
@@ -142,14 +142,15 @@ export const LinkList = styled.ul`
 		padding: 32px 4px 16px;
 		gap: 5px;
 	}
-`
+`;
 
 export const LinkColumn = styled.div`
 	display: flex;
 	flex-direction: column;
 	max-width: 220px;
 	width: 100%;
-`
+`;
+
 export const LinkTitle = styled.h4`
 	font-style: normal;
 	font-weight: 600;
@@ -164,4 +165,4 @@ export const LinkTitle = styled.h4`
 		line-height: 12px;
 		margin-bottom: 8px;
 	}
-`
+`;
