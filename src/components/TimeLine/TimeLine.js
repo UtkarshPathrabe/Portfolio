@@ -1,12 +1,9 @@
 import React, { useState, useRef, useEffect } from 'react';
 
-import { Boxes, ProfileImg, CarouselButton, CarouselButtonDot, CarouselButtons, CarouselContainer, CarouselItem, CarouselItemImg, CarouselItemText, CarouselItemTitle, CarouselMobileScrollNode } from './TimeLineStyles';
-import { Section, SectionDivider, SectionText, SectionTitle, SectionSubTitle } from '../../styles/GlobalComponents';
-import { TimeLineData } from '../../constants/timelineItems';
+import { CarouselButton, CarouselButtonDot, CarouselButtons, CarouselContainer, CarouselItem, CarouselItemImg, CarouselItemText, CarouselItemTitle, CarouselMobileScrollNode } from './TimeLineStyles';
 
-const TOTAL_CAROUSEL_COUNT = TimeLineData.length;
-
-const Timeline = () => {
+const Timeline = ({ data, extendWidth }) => {
+  const TOTAL_CAROUSEL_COUNT = data.length;
   const [activeItem, setActiveItem] = useState(0);
   const carouselRef = useRef();
 
@@ -17,15 +14,14 @@ const Timeline = () => {
   const handleClick = (e, i) => {
     e.preventDefault();
     if (carouselRef.current) {
-      const scrollLeft = Math.floor(carouselRef.current.scrollWidth * 0.7 * (i / TimeLineData.length));
+      const scrollLeft = Math.floor(carouselRef.current.scrollWidth * 0.7 * (i / TOTAL_CAROUSEL_COUNT));
       scroll(carouselRef.current, scrollLeft);
     }
   }
 
   const handleScroll = () => {
     if (carouselRef.current) {
-      const index = Math.round((carouselRef.current.scrollLeft / (carouselRef.current.scrollWidth * 0.7)) * TimeLineData.length);
-
+      const index = Math.round((carouselRef.current.scrollLeft / (carouselRef.current.scrollWidth * 0.7)) * TOTAL_CAROUSEL_COUNT);
       setActiveItem(index);
     }
   }
@@ -41,30 +37,20 @@ const Timeline = () => {
   }, []);
 
   return (
-    <Section id='about'>
-      <SectionDivider />
-      <SectionTitle main>About Me</SectionTitle>
-      <Boxes>
-        <ProfileImg src={'https://avatars.githubusercontent.com/u/7246712?v=4'} alt={'Profile Picture'} />
-        <SectionText style={{ margin: 'auto' }}>
-          I am a Senior System Software Engineer at NVIDIA Graphics Pvt. Ltd., Pune, India. <br />
-          I am Computer Science Graduate from BITS Pilani, Rajasthan, India. <br />
-          I like solving competetive coding problems, exploring new technologies, drawing, painting, travelling and gaming.
-        </SectionText>
-      </Boxes>
-      <SectionSubTitle>Experience</SectionSubTitle>
+    <div>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
-          {TimeLineData.map((item, index) => (
+          {data.map(({year, timeLine, text, board, score}, index) => (
             <CarouselMobileScrollNode key={index} final={index === TOTAL_CAROUSEL_COUNT}>
               <CarouselItem
                 index={index}
                 id={`carousel__item-${index}`}
                 active={activeItem}
                 onClick={(e) => handleClick(e, index)}
+                extendWidth={extendWidth}
               >
                 <CarouselItemTitle>
-                  {item.year}
+                  {year}
                   <CarouselItemImg
                     width="208"
                     height="6"
@@ -96,15 +82,17 @@ const Timeline = () => {
                     </defs>
                   </CarouselItemImg>
                 </CarouselItemTitle>
-                <CarouselItemText>{item.timeLine}</CarouselItemText>
-                <CarouselItemText>{item.text}</CarouselItemText>
+                <CarouselItemText>{timeLine}</CarouselItemText>
+                {score && <CarouselItemText>{score}</CarouselItemText>}
+                <CarouselItemText>{text}</CarouselItemText>
+                {board && <CarouselItemText>{board}</CarouselItemText>}
               </CarouselItem>
             </CarouselMobileScrollNode>
           ))}
         </>
       </CarouselContainer>
       <CarouselButtons>
-        {TimeLineData.map((item, index) => (
+        {data.map((item, index) => (
           <CarouselButton
             key={index}
             index={index}
@@ -116,7 +104,7 @@ const Timeline = () => {
           </CarouselButton>
         ))}
       </CarouselButtons>
-    </Section>
+    </div>
   );
 };
 
