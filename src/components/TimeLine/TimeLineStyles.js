@@ -1,36 +1,6 @@
 
 import styled from 'styled-components';
 
-export const Boxes = styled.div`
-  width: 100%;
-  display: grid;
-  grid-template-columns: 280px 1fr;
-  gap: 24px;
-  margin: 24px 0 40px;
-
-  @media ${props => props.theme.breakpoints.md}{
-    gap: 16px;
-    margin: auto;
-    grid-template-columns: auto;
-  }
-
-  @media ${props => props.theme.breakpoints.sm}{
-    display: grid;
-    grid-template-columns: auto;
-    gap: 10px;
-    margin: auto;
-  }
-`;
-
-export const ProfileImg = styled.img`
-  width: 260px;
-  height: 260px;
-  object-fit: cover;
-  overflow: hidden;
-  border-radius: 25%;
-  margin: auto auto;
-`;
-
 export const CarouselContainer = styled.ul`
   max-width: 1040px;
   background: #0F1624;
@@ -45,7 +15,7 @@ export const CarouselContainer = styled.ul`
     margin-left: 0px;
   }
 
-  margin-bottom: 80px;
+  margin-bottom: 40px;
 
   //remove scrollbar
   scrollbar-width: none;  
@@ -73,10 +43,10 @@ export const CarouselMobileScrollNode = styled.div`
 export const CarouselItem = styled.div`
   background: #0F1624;
   border-radius: 3px;
-  max-width: 196px;
+  max-width: ${(props) => props.extendWidth ? '33vw' : '196px'};
 
   @media ${props => props.theme.breakpoints.md} {
-    max-width: 124px;
+    max-width: ${(props) => props.extendWidth ? '33vw' : '124px'};
   }
   
   @media ${props => props.theme.breakpoints.sm} {
@@ -159,7 +129,7 @@ export const CarouselButtons = styled.div`
   @media ${props => props.theme.breakpoints.sm} {
     display: flex;
     visibility: visible;
-    margin-bottom: 48px;
+    margin-bottom: 24px;
   }
 `;
 
