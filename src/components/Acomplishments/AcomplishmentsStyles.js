@@ -20,7 +20,7 @@ export const Boxes = styled.div`
     max-width: 500px;
     margin: 24px auto;
   }
-`
+`;
 
 export const Box = styled.div`
   background: #212D45;
@@ -45,7 +45,8 @@ export const Box = styled.div`
       grid-row:2;
     }
   }
-`
+`;
+
 export const BoxNum = styled.h5`
   font-style: normal;
   font-weight: 600;
@@ -63,7 +64,7 @@ export const BoxNum = styled.h5`
     font-size: 24px;
     line-height: 26px;
 }
-`
+`;
 
 export const BoxText = styled.p`
   font-style: normal;
@@ -82,7 +83,7 @@ export const BoxText = styled.p`
     font-size: 10px;
     line-height: 14px;
   }
-`
+`;
 
 export const Join = styled.div`
   display: flex;
@@ -103,7 +104,7 @@ export const Join = styled.div`
     align-items: center;
     padding-bottom: 32px;
   }
-`
+`;
 
 export const JoinText = styled.h5`
   display: flex;
@@ -112,23 +113,22 @@ export const JoinText = styled.h5`
   letter-spacing: 0.02em;
   color: rgba(255, 255, 255, 0.5);
 
-@media ${props => props.theme.breakpoints.md}{
-  line-height: 32px;
-  font-size: 20px;
-};
+  @media ${props => props.theme.breakpoints.md}{
+    line-height: 32px;
+    font-size: 20px;
+  }
 
-@media ${props => props.theme.breakpoints.sm}{
-  font-size: 16px;
-  line-height: 24px;
-  margin: 0 0 16px;
-}
-`
+  @media ${props => props.theme.breakpoints.sm}{
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0 0 16px;
+  }
+`;
 
 export const IconContainer = styled.div`
   display: flex;
-
   @media ${props => props.theme.breakpoints.sm}{
     width: 160px;
     justify-content: space-between;
   }
-`
+`;
