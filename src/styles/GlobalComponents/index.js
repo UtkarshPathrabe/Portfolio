@@ -53,6 +53,34 @@ export const SectionTitle = styled.h2`
   }
 `;
 
+export const SectionSubTitle = styled.h4`
+  font-weight: 600;
+  font-size: 46px;
+  line-height: 46px;
+  width: max-content;
+  max-width: 100%;
+  background: linear-gradient(121.57deg, #FFFFFF 18.77%, rgba(255, 255, 255, 0.66) 60.15%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 16px;
+  padding: 0;
+
+  @media ${props => props.theme.breakpoints.md}{
+    font-size: 36px;
+    line-height: 36px;
+    margin-bottom: 12px;
+    padding: 0;
+  }
+
+  @media ${props => props.theme.breakpoints.sm}{
+    font-size: 24px;
+    line-height: 24px;
+    margin-bottom: 8px;
+    padding: 0;
+    max-width: 100%;
+  }
+`;
+
 export const SectionText = styled.p`
   font-size: 24px;
   line-height: 40px;
