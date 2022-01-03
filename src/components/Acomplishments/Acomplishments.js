@@ -12,7 +12,7 @@ const data = [
 const Acomplishments = () => (
   <Section id='accomplishments'>
     <SectionDivider />
-    <SectionTitle main>Personal Accomplishments</SectionTitle>
+    <SectionTitle main>Accomplishments</SectionTitle>
     <Boxes>
       {data.map((card, index) => (
         <Box key={index}>
