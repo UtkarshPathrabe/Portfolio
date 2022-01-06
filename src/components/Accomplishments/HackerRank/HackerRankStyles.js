@@ -60,7 +60,7 @@ export const ScoreContainer = styled.div`
     align-items: center;
 `;
 
-export const ScoreTitle = styled.h4`
+export const Title = styled.h4`
     font-size: 26px;
     line-height: 40px;
     font-weight: 300;
@@ -78,7 +78,7 @@ export const ScoreTitle = styled.h4`
     }
 `;
 
-export const ScoreText = styled.p`
+export const Text = styled.p`
     font-size: 24px;
     line-height: 40px;
     font-weight: 200;
