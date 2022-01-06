@@ -4,7 +4,7 @@ import { BiErrorCircle } from 'react-icons/bi';
 import { Bars } from 'react-loading-icons';
 
 import { SectionText } from '../../../styles/GlobalComponents';
-import { ErrorContent, ScoreParentContainer, ScoreContainer, ScoreText, ScoreTitle } from './HackerRankStyles';
+import { ErrorContent, ScoresContainer, ScoreParentContainer, ScoreContainer, ScoreText, ScoreTitle } from './HackerRankStyles';
 import { fetcher } from '../../../utilities/utils';
 
 const HackerRankScores = () => {
@@ -34,10 +34,10 @@ const HackerRankScores = () => {
         );
     }
     return (
-        <>
+        <ScoresContainer>
             <ScoreTitle>HackerRank Scores</ScoreTitle>
             {content}
-        </>
+        </ScoresContainer>
     );
 };
 
