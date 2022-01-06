@@ -12,7 +12,7 @@ const HackerRank = () => {
     return (
         <div>
             <TitleLink href='https://www.hackerrank.com/UtkarshPathrabe' target='_blank'>
-                <SectionSubTitle><SiHackerrank size={'3rem'} /> HackerRank <BiLinkExternal size={'2rem'} style={{ margin: '0 0 1.5rem 0' }} /></SectionSubTitle>
+                <SectionSubTitle><SiHackerrank size='3rem' /> HackerRank <BiLinkExternal size='2rem' style={{ margin: '0 0 1.5rem 0' }} /></SectionSubTitle>
             </TitleLink>
             <Content>
                 <HackerRankSubmissions />
