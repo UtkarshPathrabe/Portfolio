@@ -33,6 +33,15 @@ export const ChartContainer = styled.div`
     margin: 2rem auto;
 `;
 
+export const ScoresContainer = styled.div`
+    margin: 2rem auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+`;
+
 export const ScoreParentContainer = styled.div`
     width: 100%;
     display: grid;
@@ -84,4 +93,77 @@ export const ScoreText = styled.p`
         font-size: 16px;
         line-height: 24px;
     }
+`;
+
+export const HelperText = styled.p`
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 100;
+    color: rgba(255, 255, 255, 0.5);
+
+    @media ${(props) => props.theme.breakpoints.md} {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    @media ${(props) => props.theme.breakpoints.sm} {
+        font-size: 12px;
+        line-height: 16px;
+    }
+`;
+
+export const BadgesContainer = styled.div`
+    margin: 2rem auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+`;
+
+export const BadgeParentContainer = styled.div`
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 2rem;
+    row-gap: 2rem;
+    @media ${(props) => props.theme.breakpoints.lg} {
+        grid-template-columns: 1fr 1fr;
+    }
+    @media ${(props) => props.theme.breakpoints.sm} {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+`;
+
+export const Badge = styled.div`
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
+    padding: 10px;
+`;
+
+export const BadgeImage = styled.img`
+    width: 100%;
+    height: 200px;
+    background-color: ${(props) => props.backgroundColor};
+    border-radius: 10px;
+    padding: 30px;
+    @media ${(props) => props.theme.breakpoints.sm} {
+        height: 150px;
+        padding: 20px;
+    }
+`;
+
+export const StarContainer = styled.div`
+    display: flex;
+    justify-content: center;
+    align-items:Center;
+    color: rgba(255, 255, 255, 0.5);
 `;
