@@ -6,6 +6,7 @@ import { SectionSubTitle } from '../../../styles/GlobalComponents';
 import { TitleLink, Content } from './HackerRankStyles';
 import HackerRankSubmissions from './HackerRankSubmissions';
 import HackerRankScores from './HackerRankScores';
+import HackerRankBadges from './HackerRankBadges';
 
 const HackerRank = () => {
     return (
@@ -16,6 +17,7 @@ const HackerRank = () => {
             <Content>
                 <HackerRankSubmissions />
                 <HackerRankScores />
+                <HackerRankBadges />
             </Content>
         </div>
     );
