@@ -34,15 +34,19 @@ export const CertificateCard = styled.div`
   justify-content: space-between;
   align-items: flex-start;
   height: 100%;
+  min-height: 120px;
   width: 100%;
   background-image: url(${(props) => props.backgroundSvg});
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
 `;
 
 export const Title = styled.h4`
   font-size: 22px;
   line-height: 26px;
   font-weight: 300;
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.7);
   padding-bottom: 1rem;
 
   @media ${(props) => props.theme.breakpoints.md} {
@@ -60,7 +64,7 @@ export const Text = styled.p`
   font-size: 20px;
   line-height: 24px;
   font-weight: 200;
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.6);
 
   @media ${(props) => props.theme.breakpoints.md} {
     font-size: 16px;
