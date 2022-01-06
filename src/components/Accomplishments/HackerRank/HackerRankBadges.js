@@ -5,7 +5,7 @@ import { FaStar } from 'react-icons/fa';
 import { Bars } from 'react-loading-icons';
 
 import { SectionText } from '../../../styles/GlobalComponents';
-import { ErrorContent, BadgesContainer, BadgeParentContainer, Badge, BadgeImage, HelperText, ScoreText, ScoreTitle, StarContainer } from './HackerRankStyles';
+import { ErrorContent, BadgesContainer, BadgeParentContainer, Badge, BadgeImage, HelperText, Text, Title, StarContainer } from './HackerRankStyles';
 import { fetcher } from '../../../utilities/utils';
 
 const badgesImagesURL = new Map();
@@ -65,7 +65,7 @@ const HackerRankBadges = () => {
                 {data.models.filter(({ solved, level }) => solved > 0 && level > 0).map(({ url, level, badge_name, current_points, stars, solved, total_challenges }) => (
                     <Badge key={url}>
                         <BadgeImage src={badgesImagesURL[url]} alt={url} backgroundColor={getLevelColor(level)} />
-                        <ScoreText>{badge_name}</ScoreText>
+                        <Text>{badge_name}</Text>
                         <HelperText>{getLevel(level)}</HelperText>
                         <StarContainer>
                             {Array.from(Array(stars)).map((_, i) => (<FaStar key={i} />))}
@@ -79,7 +79,7 @@ const HackerRankBadges = () => {
     }
     return (
         <BadgesContainer>
-            <ScoreTitle>HackerRank Badges</ScoreTitle>
+            <Title>HackerRank Badges</Title>
             {content}
         </BadgesContainer>
     );
