@@ -71,11 +71,16 @@ export const CardInfo = styled.p`
   width: 100%;
   padding: 0 3rem;
   color: #e4e6e7;
-  font-style: 2rem;
+  font-size: 1.5rem;
   line-height: 24px;
-  text-align: justify;
+  text-align: center;
+  height: 100px;
   @media ${(props) => props.theme.breakpoints.sm} {
     padding: 0 1rem;
+    height: 100%;
+  }
+  @media ${(props) => props.theme.breakpoints.md} {
+    height: 100%;
   }
 `;
 
