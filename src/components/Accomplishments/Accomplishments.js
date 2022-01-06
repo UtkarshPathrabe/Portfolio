@@ -3,6 +3,7 @@ import React from 'react';
 import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
 import { Box, Boxes, BoxNum, BoxText } from './AccomplishmentsStyles';
 import LeetCode from './LeetCode/LeetCode';
+import HackerRank from './HackerRank/HackerRank';
 
 const data = [
   { number: 20, text: 'Open Source Projects'},
@@ -23,6 +24,7 @@ const Accomplishments = () => (
       ))}
     </Boxes>
     <LeetCode />
+    <HackerRank />
   </Section>
 );
 
