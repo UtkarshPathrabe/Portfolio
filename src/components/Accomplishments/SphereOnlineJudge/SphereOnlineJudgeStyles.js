@@ -9,14 +9,7 @@ export const Content = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: 15rem;
-    margin: 24px 0 40px;
-    @media ${props => props.theme.breakpoints.md}{
-        margin: 20px 0 32px;
-    }
-    @media ${props => props.theme.breakpoints.sm}{
-        margin: 24px auto;
-    }
+    margin-bottom: 1rem;
 `;
 
 export const ContentContainer = styled.div`
