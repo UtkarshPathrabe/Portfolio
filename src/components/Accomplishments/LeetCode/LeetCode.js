@@ -10,9 +10,7 @@ import HighchartsReact from 'highcharts-react-official';
 
 import { SectionSubTitle, SectionText } from '../../../styles/GlobalComponents';
 import { TitleLink, Content, ErrorContent, ChartContainer, ChartParentContainer, TextContainer, ContentContainer } from './LeetCodeStyles';
-import { getDateDiffInDays } from '../../../utilities/utils';
-
-const fetcher = (url) => fetch(url).then((res) => res.json());
+import { getDateDiffInDays, fetcher } from '../../../utilities/utils';
 
 const LeetCode = () => {
     const { data, error } = useSWR('https://nodejs-server-githubio-page.herokuapp.com/leetcode_data', fetcher);
