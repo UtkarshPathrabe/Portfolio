@@ -4,6 +4,7 @@ import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalCompon
 import { Box, Boxes, BoxNum, BoxText } from './AccomplishmentsStyles';
 import LeetCode from './LeetCode/LeetCode';
 import HackerRank from './HackerRank/HackerRank';
+import SphereOnlineJudge from './SphereOnlineJudge/SphereOnlineJudge';
 
 const data = [
   { number: 20, text: 'Open Source Projects'},
@@ -25,6 +26,7 @@ const Accomplishments = () => (
     </Boxes>
     <LeetCode />
     <HackerRank />
+    <SphereOnlineJudge />
   </Section>
 );
 
