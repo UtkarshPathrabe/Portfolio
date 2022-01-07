@@ -27,6 +27,15 @@ export const projects = [
       id: 2,
     },
     {
+      title: 'Weather App PWA',
+      description: "Get current weather information using this Progressive Web App (PWA) created using ReactJS.",
+        image: '/images/projects/9.png',
+        tags: ['React', 'PWA', 'WeatherAPI'],
+      source: 'https://github.com/UtkarshPathrabe/Weather-App-PWA',
+      visit: 'https://utkarsh-weather-app-pwa.netlify.app/',
+      id: 9,
+    },
+    {
       title: 'Speech Recognition',
       description: "This application is using SpeechRecognition interface of the Web Speech API which enables to incorporate voice data into web apps.",
       image: '/images/projects/4.png',
