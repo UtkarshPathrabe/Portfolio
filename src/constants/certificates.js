@@ -1,5 +1,12 @@
 const CertificateData = [
     {
+        name: 'Command Line in Linux',
+        organization: 'Coursera',
+        issue_date: 'Jan 07, 2022',
+        certificate_id: 'ZAULKW9T4RUG',
+        certificate_url: 'https://www.coursera.org/account/accomplishments/certificate/ZAULKW9T4RUG',
+    },
+    {
         name: 'Create AWS EC2 Virtual Machine Using AWS console',
         organization: 'Coursera',
         issue_date: 'Dec 30, 2021',
