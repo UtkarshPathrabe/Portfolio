@@ -4,6 +4,7 @@ import Footer from '../components/Footer/Footer';
 import Toolbar from '../components/Toolbar/Toolbar';
 import SideDrawer from '../components/SideDrawer/SideDrawer';
 import Backdrop from '../components/Backdrop/Backdrop';
+import ScrollButton from '../components/ScrollButton/ScrollButton';
 import { Container, MainContainer } from './LayoutStyles';
 
 export const Layout = ({children}) => {
@@ -31,6 +32,7 @@ export const Layout = ({children}) => {
         {children}
       </MainContainer>
       <Footer/>
+      <ScrollButton />
     </Container>
   )
 };
