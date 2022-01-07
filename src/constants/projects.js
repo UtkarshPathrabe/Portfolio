@@ -36,6 +36,15 @@ export const projects = [
       id: 9,
     },
     {
+      title: 'Local Tapas',
+      description: "Local Storage and Event Delegation JavaScript concepts are used in this Local Tapas website.",
+      image: '/images/projects/10.png',
+      tags: ['JavaScript', 'Local Storage', 'Event Delegation'],
+      source: 'https://github.com/UtkarshPathrabe/Local-Tapas---JS-Local-Storage-and-Event-Delegation',
+      visit: 'https://utkarshpathrabe.github.io/Local-Tapas---JS-Local-Storage-and-Event-Delegation/',
+      id: 10,
+    },
+    {
       title: 'Speech Recognition',
       description: "This application is using SpeechRecognition interface of the Web Speech API which enables to incorporate voice data into web apps.",
       image: '/images/projects/4.png',
