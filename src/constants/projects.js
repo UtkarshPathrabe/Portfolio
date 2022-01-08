@@ -54,6 +54,15 @@ export const projects = [
       id: 22,
     },
     {
+      title: 'Memory Game',
+      description: "Memory game created using Python. Visit the game and click on the play button to launch the game.",
+      image: '/images/projects/23.png',
+      tags: ['Python'],
+      source: 'https://github.com/UtkarshPathrabe/Memory-Game-using-Python',
+      visit: 'https://py2.codeskulptor.org/#user38_vrsmncrb1m4LHu2.py',
+      id: 23,
+    },
+    {
       title: 'Local Tapas',
       description: "Local Storage and Event Delegation JavaScript concepts are used in this Local Tapas website.",
       image: '/images/projects/10.png',
