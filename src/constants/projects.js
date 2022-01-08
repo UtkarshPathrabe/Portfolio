@@ -134,4 +134,13 @@ export const projects = [
       visit: 'https://utkarshpathrabe.github.io/World-Clock-Time-Display/',
       id: 5,
     },
+    {
+      title: 'Clock',
+      description: "Clock created using CSS and JS.",
+      image: '/images/projects/16.png',
+      tags: ['CSS', 'JavaScript'],
+      source: 'https://github.com/UtkarshPathrabe/JS-and-CSS-Clock',
+      visit: 'https://utkarshpathrabe.github.io/JS-and-CSS-Clock/',
+      id: 16,
+    },
   ];
