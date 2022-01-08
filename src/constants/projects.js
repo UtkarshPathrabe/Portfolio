@@ -45,6 +45,15 @@ export const projects = [
       id: 21,
     },
     {
+      title: 'Blackjack',
+      description: "Blackjack game created using Python. Visit the game and click on the play button to launch the game.",
+      image: '/images/projects/22.png',
+      tags: ['Python'],
+      source: 'https://github.com/UtkarshPathrabe/Blackjack-Game-using-Python',
+      visit: 'https://py2.codeskulptor.org/#user40_jnSBnwnpcO_20.py',
+      id: 22,
+    },
+    {
       title: 'Local Tapas',
       description: "Local Storage and Event Delegation JavaScript concepts are used in this Local Tapas website.",
       image: '/images/projects/10.png',
