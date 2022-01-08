@@ -72,13 +72,22 @@ export const projects = [
       id: 12,
     },
     {
-      title: 'Self Movement Data Analysis',
+      title: 'Exercises Prediction',
       description: "The goal of this project report is to predict the manner in which the participants did the physical exercises.",
       image: '/images/projects/13.png',
       tags: ['R', 'R Markdown'],
       source: 'https://github.com/UtkarshPathrabe/Practical-Machine-Learning-Johns-Hopkins-Bloomberg-School-of-Public-Health-Coursera/tree/master/Project',
       visit: 'https://rpubs.com/UtkarshPathrabe/PracticalMachineLearningProjectReport',
       id: 13,
+    },
+    {
+      title: 'Storm Analysis',
+      description: "Report on the impact of natural disasters on the economy and the public health of the United States.",
+      image: '/images/projects/14.png',
+      tags: ['R', 'R Markdown'],
+      source: 'https://github.com/UtkarshPathrabe/Reproducible-Research-Johns-Hopkins-Bloomberg-School-of-Public-Health-Coursera/tree/master/Project%2002',
+      visit: 'https://rpubs.com/UtkarshPathrabe/Storm_Analysis',
+      id: 14,
     },
     {
       title: 'Thanos Portal Effect',
