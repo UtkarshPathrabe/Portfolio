@@ -101,7 +101,7 @@ export const projects = [
     {
       title: 'Thanos Portal Effect',
       description: "Thanos Portal Effect created using Three.js",
-      image: '/images/projects/7.png',
+      image: '/images/projects/7.gif',
       tags: ['ThreeJS', 'JavaScript'],
       source: 'https://github.com/UtkarshPathrabe/Thanos-Portal-Effect-using-Three.js',
       visit: 'https://thanos-portal.herokuapp.com/',
