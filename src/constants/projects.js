@@ -81,6 +81,15 @@ export const projects = [
       id: 25,
     },
     {
+      title: 'Stopwatch Game',
+      description: "Stopwatch game created using Python. Visit the game and click on the play button to launch the game.",
+      image: '/images/projects/26.png',
+      tags: ['Python'],
+      source: 'https://github.com/UtkarshPathrabe/Stopwatch-Game-using-Python',
+      visit: 'https://py2.codeskulptor.org/#user39_6eqA379GiyDUay8_0.py',
+      id: 26,
+    },
+    {
       title: 'Local Tapas',
       description: "Local Storage and Event Delegation JavaScript concepts are used in this Local Tapas website.",
       image: '/images/projects/10.png',
