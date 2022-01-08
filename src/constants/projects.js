@@ -36,6 +36,15 @@ export const projects = [
       id: 9,
     },
     {
+      title: 'RiceRocks',
+      description: "RiceRocks game created using Python. Visit the game and click on the play button to launch the game.",
+      image: '/images/projects/21.png',
+      tags: ['Python'],
+      source: 'https://github.com/UtkarshPathrabe/RiceRocks',
+      visit: 'https://py2.codeskulptor.org/#user40_mPZsI98jU7_4.py',
+      id: 21,
+    },
+    {
       title: 'Local Tapas',
       description: "Local Storage and Event Delegation JavaScript concepts are used in this Local Tapas website.",
       image: '/images/projects/10.png',
