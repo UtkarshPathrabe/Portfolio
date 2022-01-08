@@ -45,6 +45,15 @@ export const projects = [
       id: 10,
     },
     {
+      title: 'Slide in on Scroll',
+      description: "Slide in on Scroll created using HTML, CSS and JavaScript.",
+      image: '/images/projects/11.gif',
+      tags: ['JavaScript', 'Scrolling', 'CSS'],
+      source: 'https://github.com/UtkarshPathrabe/Slide-in-on-Scroll',
+      visit: 'https://utkarshpathrabe.github.io/Slide-in-on-Scroll/',
+      id: 11,
+    },
+    {
       title: 'Speech Recognition',
       description: "This application is using SpeechRecognition interface of the Web Speech API which enables to incorporate voice data into web apps.",
       image: '/images/projects/4.png',
