@@ -72,6 +72,15 @@ export const projects = [
       id: 24,
     },
     {
+      title: 'Guess the Number',
+      description: "Guess the number game created using Python. Visit the game and click on the play button to launch the game.",
+      image: '/images/projects/25.png',
+      tags: ['Python'],
+      source: 'https://github.com/UtkarshPathrabe/Guess-the-Number-Game-using-Python',
+      visit: 'https://py2.codeskulptor.org/#user38_ei0dID0C2V9LNbB.py',
+      id: 25,
+    },
+    {
       title: 'Local Tapas',
       description: "Local Storage and Event Delegation JavaScript concepts are used in this Local Tapas website.",
       image: '/images/projects/10.png',
