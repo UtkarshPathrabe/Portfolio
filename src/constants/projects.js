@@ -143,4 +143,13 @@ export const projects = [
       visit: 'https://utkarshpathrabe.github.io/JS-and-CSS-Clock/',
       id: 16,
     },
+    {
+      title: 'Video Durations',
+      description: "Programmatically calculate the total duration of all videos.",
+      image: '/images/projects/17.png',
+      tags: ['JavaScript'],
+      source: 'https://github.com/UtkarshPathrabe/Total-Duration-from-Videos-List',
+      visit: 'https://utkarshpathrabe.github.io/Total-Duration-from-Videos-List/',
+      id: 17,
+    },
   ];
