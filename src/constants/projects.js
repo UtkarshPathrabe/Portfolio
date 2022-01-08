@@ -6,7 +6,7 @@ export const projects = [
         tags: ['Express', 'React', 'Node', 'RapidAPI', 'Maps'],
       source: 'https://github.com/UtkarshPathrabe/travel_advisor',
       visit: 'https://utkarsh-travel-advisor.netlify.app/',
-      id: 0,
+      id: 1,
     },
     {
       title: 'Realtor',
@@ -15,7 +15,7 @@ export const projects = [
       tags: ['React', 'NextJS', 'RapidAPI'],
       source: 'https://github.com/UtkarshPathrabe/utkarsh_realestate',
       visit: 'https://utkarsh-realestate.vercel.app/',
-      id: 1,
+      id: 2,
     },
     {
       title: 'Realtime Chat',
@@ -24,7 +24,7 @@ export const projects = [
         tags: ['React', 'SocketIO', 'Express', 'Node'],
       source: 'https://github.com/UtkarshPathrabe/utkarsh-react-chat-application',
       visit: 'https://utkarsh-react-chat-app.netlify.app/',
-      id: 2,
+      id: 3,
     },
     {
       title: 'Weather App PWA',
@@ -60,7 +60,7 @@ export const projects = [
       tags: ['JavaScript', 'Web Speech API'],
       source: 'https://github.com/UtkarshPathrabe/Speech-Recognition',
       visit: 'https://speech-recognition-js.herokuapp.com/',
-      id: 3,
+      id: 4,
     },
     {
       title: 'Mouse Shadow',
@@ -123,7 +123,7 @@ export const projects = [
       tags: ['JavaScript'],
       source: 'https://github.com/UtkarshPathrabe/Photo-Booth',
       visit: 'https://photo-booth-js.herokuapp.com/',
-      id: 4,
+      id: 5,
     },
     {
       title: 'World Clock',
@@ -132,7 +132,7 @@ export const projects = [
       tags: ['JavaScript'],
       source: 'https://github.com/UtkarshPathrabe/World-Clock-Time-Display',
       visit: 'https://utkarshpathrabe.github.io/World-Clock-Time-Display/',
-      id: 5,
+      id: 6,
     },
     {
       title: 'Clock',
