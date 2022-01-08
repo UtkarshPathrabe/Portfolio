@@ -152,4 +152,13 @@ export const projects = [
       visit: 'https://utkarshpathrabe.github.io/Total-Duration-from-Videos-List/',
       id: 17,
     },
+    {
+      title: 'List Sort',
+      description: "Custom comparator for sorting a list of strings ignoring the english articles (a, an or the) in the start of the names while sorting.",
+      image: '/images/projects/18.png',
+      tags: ['JavaScript'],
+      source: 'https://github.com/UtkarshPathrabe/Sort-List-Ignoring-Articles--A-An-The-',
+      visit: 'https://utkarshpathrabe.github.io/Sort-List-Ignoring-Articles--A-An-The-/',
+      id: 18,
+    },
   ];
