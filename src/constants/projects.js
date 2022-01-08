@@ -63,6 +63,15 @@ export const projects = [
       id: 23,
     },
     {
+      title: 'Pong Game',
+      description: "Pong game created using Python. Visit the game and click on the play button to launch the game.",
+      image: '/images/projects/24.png',
+      tags: ['Python'],
+      source: 'https://github.com/UtkarshPathrabe/Pong-Game-using-Python',
+      visit: 'https://py2.codeskulptor.org/#user38_VNtpAkYb9cnHgqb.py',
+      id: 24,
+    },
+    {
       title: 'Local Tapas',
       description: "Local Storage and Event Delegation JavaScript concepts are used in this Local Tapas website.",
       image: '/images/projects/10.png',
