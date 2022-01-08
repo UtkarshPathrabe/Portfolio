@@ -63,6 +63,15 @@ export const projects = [
       id: 3,
     },
     {
+      title: 'Mouse Shadow',
+      description: "Mouse Shadow created using JavaScript.",
+      image: '/images/projects/12.gif',
+      tags: ['JavaScript', 'CSS'],
+      source: 'https://github.com/UtkarshPathrabe/Mouse-Shadow',
+      visit: 'https://utkarshpathrabe.github.io/Mouse-Shadow/',
+      id: 12,
+    },
+    {
       title: 'Thanos Portal Effect',
       description: "Thanos Portal Effect created using Three.js",
       image: '/images/projects/7.png',
