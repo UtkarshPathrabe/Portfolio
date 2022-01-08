@@ -90,6 +90,15 @@ export const projects = [
       id: 14,
     },
     {
+      title: 'Activity Monitoring',
+      description: "Report answering various questions on the Activity Monitoring data.",
+      image: '/images/projects/15.png',
+      tags: ['R', 'R Markdown'],
+      source: 'https://github.com/UtkarshPathrabe/Reproducible-Research-Johns-Hopkins-Bloomberg-School-of-Public-Health-Coursera/tree/master/Project%2001',
+      visit: 'https://github.com/UtkarshPathrabe/Reproducible-Research-Johns-Hopkins-Bloomberg-School-of-Public-Health-Coursera/blob/master/Project%2001/PA1_template.md',
+      id: 15,
+    },
+    {
       title: 'Thanos Portal Effect',
       description: "Thanos Portal Effect created using Three.js",
       image: '/images/projects/7.png',
