@@ -110,7 +110,7 @@ export const projects = [
     {
       title: 'Basic ThreeJS',
       description: "Basic Three.JS project for learning purpose",
-      image: '/images/projects/8.png',
+      image: '/images/projects/8.gif',
       tags: ['ThreeJS', 'JavaScript'],
       source: 'https://github.com/UtkarshPathrabe/Basic-THREE.JS',
       visit: 'https://utkarshpathrabe.github.io/Basic-THREE.JS/',
