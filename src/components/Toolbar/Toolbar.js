@@ -42,19 +42,19 @@ const Toolbar = ({ toggleButtonHandler, handleLinkClick }) => (
             </ToolbarNavigationItems>
             <Spacer />
             <SocialIconsContainer>
-                <SocialIcons href='https://github.com/UtkarshPathrabe' target='_blank'>
+                <SocialIcons href='https://github.com/UtkarshPathrabe' target='_blank' rel='noopener noreferrer'>
                     <AiFillGithub size='3rem' />
                 </SocialIcons>
-                <SocialIcons href='https://www.linkedin.com/in/utkarshpathrabe/' target='_blank'>
+                <SocialIcons href='https://www.linkedin.com/in/utkarshpathrabe/' target='_blank' rel='noopener noreferrer'>
                     <AiFillLinkedin size='3rem' />
                 </SocialIcons>
-                <SocialIcons href='https://www.instagram.com/utkarsh_pathrabe/' target='_blank'>
+                <SocialIcons href='https://www.instagram.com/utkarsh_pathrabe/' target='_blank' rel='noopener noreferrer'>
                     <AiFillInstagram size='3rem' />
                 </SocialIcons>
-                <SocialIcons href='https://www.facebook.com/utkarshpathrabe/' target='_blank'>
+                <SocialIcons href='https://www.facebook.com/utkarshpathrabe/' target='_blank' rel='noopener noreferrer'>
                     <AiFillFacebook size='3rem' />
                 </SocialIcons>
-                <SocialIcons href='https://twitter.com/UtkarshPathrabe' target='_blank'>
+                <SocialIcons href='https://twitter.com/UtkarshPathrabe' target='_blank' rel='noopener noreferrer'>
                     <AiFillTwitterCircle size='3rem' />
                 </SocialIcons>
             </SocialIconsContainer>
