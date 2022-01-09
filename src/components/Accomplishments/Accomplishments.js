@@ -1,6 +1,5 @@
 import React from 'react';
 
-import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
 import { Box, Boxes, BoxNum, BoxText, GitHubStats } from './AccomplishmentsStyles';
 import LeetCode from './LeetCode/LeetCode';
 import HackerRank from './HackerRank/HackerRank';
@@ -14,9 +13,7 @@ const GitHubData = [
 ];
 
 const Accomplishments = () => (
-  <Section id='accomplishments'>
-    <SectionDivider />
-    <SectionTitle main>Accomplishments</SectionTitle>
+  <>
     <GitHubStats src={'https://github-readme-stats.vercel.app/api?username=UtkarshPathrabe&show_icons=true&hide=prs,issues,contribs&theme=github_dark&border_radius=10px'} alt='github_stats' />
     <Boxes>
       {GitHubData.map(({ number, text }, index) => (
@@ -31,7 +28,7 @@ const Accomplishments = () => (
     <SphereOnlineJudge />
     <TestScores />
     <Certificates />
-  </Section>
+  </>
 );
 
 export default Accomplishments;
