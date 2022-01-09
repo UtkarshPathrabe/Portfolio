@@ -53,7 +53,7 @@ export const SectionTitle = styled.h2`
   }
 `;
 
-export const SectionSubTitle = styled.h4`
+export const SectionSubTitle = styled.h3`
   font-weight: 600;
   font-size: 46px;
   line-height: 46px;
