@@ -16,7 +16,7 @@ const About = () => {
         <SectionText style={{ margin: 'auto' }}>
           I am a Senior System Software Engineer at NVIDIA Graphics Pvt. Ltd., Pune, India. <br />
           I am Computer Science Graduate from BITS Pilani, Rajasthan, India. <br />
-          I like solving competetive coding problems, exploring new technologies, drawing, painting, travelling and gaming.
+          I like solving competitive coding problems, exploring new technologies, drawing, painting, travelling and gaming.
         </SectionText>
       </Boxes>
       <SectionSubTitle>Experience</SectionSubTitle>
