@@ -1,5 +1,6 @@
 import { AccordionTitleContainer } from './AccordionStyles';
 import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
+import { AiOutlineCaretRight, AiOutlineCaretDown } from 'react-icons/ai';
 
 const Accordion = ({ title, content, id, isActive, toggleActive }) => {
     return (
@@ -7,7 +8,7 @@ const Accordion = ({ title, content, id, isActive, toggleActive }) => {
             <SectionDivider />
             <AccordionTitleContainer onClick={toggleActive}>
                 <SectionTitle main>{ title }</SectionTitle>
-                <SectionTitle main>{ isActive ? '-' : '+' }</SectionTitle>
+                <SectionTitle main>{ isActive ? <AiOutlineCaretDown /> : <AiOutlineCaretRight /> }</SectionTitle>
             </AccordionTitleContainer>
             { isActive && content }
         </Section>
