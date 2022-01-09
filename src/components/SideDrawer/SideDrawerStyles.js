@@ -23,7 +23,7 @@ export const SideDrawerNavigationItems = styled.ul`
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    margin: 64px 1rem;
+    margin: 64px 1rem 1rem;
     @media ${(props) => props.theme.breakpoints.md} {
         margin: 48px 1rem;
     }
