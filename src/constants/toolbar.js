@@ -1,22 +1,24 @@
+import { ABOUT_URL, PROJECTS_URL, TECHNOLOGIES_URL, ACCOMPLISHMENTS_URL, PAINTINGS_URL } from './toolbarURLs';
+
 export const toolbarItemsList = [
     {
         label: 'About',
-        url: '#about',
+        url: ABOUT_URL,
     },
     {
         label: 'Projects',
-        url: '#projects',
+        url: PROJECTS_URL,
     },
     {
         label: 'Technologies',
-        url: '#tech',
+        url: TECHNOLOGIES_URL,
     },
     {
         label: 'Accomplishments',
-        url: '#accomplishments',
+        url: ACCOMPLISHMENTS_URL,
     },
     {
         label: 'Paintings',
-        url: '#paintings',
+        url: PAINTINGS_URL,
     }
 ];
