@@ -145,7 +145,7 @@ export const LinkList = styled.ul`
 	}
 `;
 
-export const LinkColumn = styled.div`
+export const LinkColumn = styled.li`
 	display: flex;
 	flex-direction: column;
 	max-width: 220px;
