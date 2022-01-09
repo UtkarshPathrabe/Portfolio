@@ -43,19 +43,19 @@ const Toolbar = ({ toggleButtonHandler, handleLinkClick }) => (
             <Spacer />
             <SocialIconsContainer>
                 <SocialIcons href='https://github.com/UtkarshPathrabe' target='_blank' rel='noopener noreferrer'>
-                    <AiFillGithub size='3rem' />
+                    <AiFillGithub size='3rem' alt='github' />
                 </SocialIcons>
                 <SocialIcons href='https://www.linkedin.com/in/utkarshpathrabe/' target='_blank' rel='noopener noreferrer'>
-                    <AiFillLinkedin size='3rem' />
+                    <AiFillLinkedin size='3rem' alt='linkedin' />
                 </SocialIcons>
                 <SocialIcons href='https://www.instagram.com/utkarsh_pathrabe/' target='_blank' rel='noopener noreferrer'>
-                    <AiFillInstagram size='3rem' />
+                    <AiFillInstagram size='3rem' alt='instagram' />
                 </SocialIcons>
                 <SocialIcons href='https://www.facebook.com/utkarshpathrabe/' target='_blank' rel='noopener noreferrer'>
-                    <AiFillFacebook size='3rem' />
+                    <AiFillFacebook size='3rem' alt='facebook' />
                 </SocialIcons>
                 <SocialIcons href='https://twitter.com/UtkarshPathrabe' target='_blank' rel='noopener noreferrer'>
-                    <AiFillTwitterCircle size='3rem' />
+                    <AiFillTwitterCircle size='3rem' alt='twitter' />
                 </SocialIcons>
             </SocialIconsContainer>
         </ToolbarNavigation>
