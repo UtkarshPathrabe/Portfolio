@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import Button from '../../styles/GlobalComponents/Button';
 import { LeftSection } from './HeroStyles';
+import { ABOUT_URL } from '../../constants/toolbarURLs';
 
 const Hero = (props) => {
   const audioRef = useRef();
@@ -24,7 +25,7 @@ const Hero = (props) => {
         <SectionText>
           Senior System Software Engineer (Autonomous Vehicles) at NVIDIA
         </SectionText>
-        <Link href='#about' passHref>
+        <Link href={ABOUT_URL} passHref>
           <Button onClick={handleLearnMore}>Learn More</Button>
         </Link>
       </LeftSection>
