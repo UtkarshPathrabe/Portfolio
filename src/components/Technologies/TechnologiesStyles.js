@@ -31,24 +31,24 @@ export const List = styled.ul`
   list-style-type: none;
   display: grid;
   grid-template-columns: repeat(6, 1fr);
-  gap: 40px;
-  margin: 3rem 0;
+  gap: 30px;
+  margin: 0 0 3rem 0;
   
   @media ${props => props.theme.breakpoints.lg}{
-    margin: 2rem 0;
+    margin: 0 0 2rem 0;
     grid-template-columns: repeat(3, 1fr);
   }
 
   @media ${props => props.theme.breakpoints.md}{
-    margin: 2rem 0;
-    gap: 24px;
+    margin: 0 0 2rem 0;
+    gap: 16px;
     grid-template-columns: repeat(2, 1fr);
   }
   
   @media ${props => props.theme.breakpoints.sm}{
     display: flex;
     flex-direction: column;
-    margin: 1rem 0;
+    margin: 0 0 1rem 0;
   }
 `;
 
