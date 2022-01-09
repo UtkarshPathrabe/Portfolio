@@ -81,7 +81,7 @@ export const ToolbarNavigationItemsList = styled.ul`
     display: flex;
 `;
 
-export const ToolbarNavigationItem = styled.div`
+export const ToolbarNavigationItem = styled.li`
     padding: 0 1rem;
 `;
 
