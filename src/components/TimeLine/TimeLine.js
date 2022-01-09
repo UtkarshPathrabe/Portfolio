@@ -99,6 +99,7 @@ const Timeline = ({ data, extendWidth }) => {
             active={activeItem}
             onClick={(e) => handleClick(e, index)}
             type='button'
+            aria-label={`carousal-button-${item}`}
           >
             <CarouselButtonDot active={activeItem} />
           </CarouselButton>
