@@ -5,8 +5,9 @@ import { AiFillGithub, AiFillInstagram, AiFillLinkedin, AiFillFacebook, AiFillTw
 import { Img, ToolbarContainer, ToolbarNavigation, DrawerToggleButtonContainer, ToolbarLogo, ToolbarLogoNavLink, ToolbarNavigationItems, ToolbarNavigationItemsList, ToolbarNavigationItem, NavLink, Spacer, SocialIconsContainer, SocialIcons } from './ToolbarStyles.js';
 import { toolbarItemsList } from '../../constants/toolbar';
 import DrawerToggleButton from "../SideDrawer/DrawerToggleButton.js";
+import { AccordionContext } from '../../layout/Layout';
 
-const Toolbar = ({ toggleButtonHandler }) => (
+const Toolbar = ({ toggleButtonHandler, handleLinkClick }) => (
     <ToolbarContainer>
         <ToolbarNavigation>
             <DrawerToggleButtonContainer>
@@ -22,15 +23,21 @@ const Toolbar = ({ toggleButtonHandler }) => (
             <Spacer />
             <ToolbarNavigationItems>
                 <ToolbarNavigationItemsList>
-                    {toolbarItemsList.map(({ label, url }) => (
-                        <ToolbarNavigationItem key={label}>
-                            <Link href={url} passHref>
-                                <NavLink>
-                                    {label}
-                                </NavLink>
-                            </Link>
-                        </ToolbarNavigationItem>
-                    ))}
+                    <AccordionContext.Consumer>
+                        {(contextValue) => (
+                            <>
+                                {toolbarItemsList.map(({ label, url }) => (
+                                    <ToolbarNavigationItem key={label}>
+                                        <Link href={url} passHref>
+                                            <NavLink onClick={() => handleLinkClick({ contextValue, url })}>
+                                                {label}
+                                            </NavLink>
+                                        </Link>
+                                    </ToolbarNavigationItem>
+                                ))}
+                            </>
+                        )}
+                    </AccordionContext.Consumer>
                 </ToolbarNavigationItemsList>
             </ToolbarNavigationItems>
             <Spacer />
