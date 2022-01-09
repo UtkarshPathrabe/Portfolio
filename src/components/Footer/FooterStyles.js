@@ -152,7 +152,7 @@ export const LinkColumn = styled.div`
 	width: 100%;
 `;
 
-export const LinkTitle = styled.h4`
+export const LinkTitle = styled.h3`
 	font-style: normal;
 	font-weight: 600;
 	font-size: 12px;
