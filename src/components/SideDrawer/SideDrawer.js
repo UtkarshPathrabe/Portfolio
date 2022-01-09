@@ -3,19 +3,26 @@ import Link from 'next/link';
 import { SideDrawerNavigation, SideDrawerNavigationItems, SideDrawerNavigationItem, NavLink, SocialIconsContainer, SocialIcons } from './SideDrawerStyles';
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin, AiFillFacebook, AiFillTwitterCircle } from 'react-icons/ai';
 import { toolbarItemsList } from '../../constants/toolbar';
+import { AccordionContext } from '../../layout/Layout';
 
-const SideDrawer = ({ isOpen, itemClickHandler }) => (
+const SideDrawer = ({ isOpen, itemClickHandler, handleLinkClick }) => (
     <SideDrawerNavigation isOpen={isOpen}>
         <SideDrawerNavigationItems>
-            {toolbarItemsList.map(({ label, url }) => (
-                <SideDrawerNavigationItem key={label}>
-                    <Link href={url} passHref>
-                        <NavLink onClick={itemClickHandler}>
-                            {label}
-                        </NavLink>
-                    </Link>
-                </SideDrawerNavigationItem>
-            ))}
+            <AccordionContext.Consumer>
+                {(contextValue) => (
+                    <>
+                        {toolbarItemsList.map(({ label, url }) => (
+                            <SideDrawerNavigationItem key={label}>
+                                <Link href={url} passHref>
+                                    <NavLink onClick={() => handleLinkClick({ contextValue, url })}>
+                                        {label}
+                                    </NavLink>
+                                </Link>
+                            </SideDrawerNavigationItem>
+                        ))}
+                    </>
+                )}
+            </AccordionContext.Consumer>
         </SideDrawerNavigationItems>
         <SocialIconsContainer onClick={itemClickHandler}>
             <SocialIcons href='https://github.com/UtkarshPathrabe' target='_blank'>
