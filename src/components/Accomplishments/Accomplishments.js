@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Box, Boxes, BoxNum, BoxText, GitHubStats } from './AccomplishmentsStyles';
+import { Box, Boxes, BoxNum, BoxText, GitHubStats, GitHubMostUsedLanguages, GitHubStatsContainer } from './AccomplishmentsStyles';
 import LeetCode from './LeetCode/LeetCode';
 import HackerRank from './HackerRank/HackerRank';
 import SphereOnlineJudge from './SphereOnlineJudge/SphereOnlineJudge';
@@ -14,7 +14,10 @@ const GitHubData = [
 
 const Accomplishments = () => (
   <>
-    <GitHubStats src={'https://github-readme-stats.vercel.app/api?username=UtkarshPathrabe&show_icons=true&hide=prs,issues,contribs&theme=github_dark&border_radius=10px'} alt='github_stats' />
+    <GitHubStatsContainer>
+      <GitHubStats src={'https://github-readme-stats.vercel.app/api?username=UtkarshPathrabe&show_icons=true&hide=prs,issues,contribs&theme=github_dark&border_radius=10px'} alt='github_stats' />
+      <GitHubMostUsedLanguages src={'https://github-readme-stats.vercel.app/api/top-langs/?username=UtkarshPathrabe&theme=github_dark&border_radius=10px'} alt='github_most_used_languages' />
+    </GitHubStatsContainer>
     <Boxes>
       {GitHubData.map(({ number, text }, index) => (
         <Box key={index}>
