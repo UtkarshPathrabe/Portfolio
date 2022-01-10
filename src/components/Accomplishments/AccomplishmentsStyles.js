@@ -76,4 +76,29 @@ export const BoxText = styled.p`
   }
 `;
 
-export const GitHubStats = styled.img``;
+export const GitHubStats = styled.img`
+  height: 100%;
+  width: 75%;
+  @media ${props => props.theme.breakpoints.sm} {
+    width: 100%;
+    margin-bottom: 8px;
+  }
+`;
+
+export const GitHubMostUsedLanguages = styled.img`
+  height: 100%;
+  width: 24%;
+  @media ${props => props.theme.breakpoints.sm} {
+    width: 100%;
+  }
+`;
+
+export const GitHubStatsContainer = styled.div`
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  @media ${props => props.theme.breakpoints.sm} {
+    flex-direction: column;
+  }
+`;
