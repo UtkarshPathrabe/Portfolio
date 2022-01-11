@@ -6,7 +6,7 @@ import TestScoresData from '../../../constants/testScores';
 
 const TestScores = () => (
   <div>
-    <SectionSubTitle>Test Scores</SectionSubTitle>
+    <SectionSubTitle>Test Scores ({TestScoresData.length})</SectionSubTitle>
     <TestScoresContainer>
       {TestScoresData.map(({ title, score, date }) => (
         <TestScoresCard key={title}>
