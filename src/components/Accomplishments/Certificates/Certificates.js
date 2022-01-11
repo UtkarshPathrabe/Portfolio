@@ -19,7 +19,7 @@ const getOrganizationIcon = (org) => {
 
 const Certificates = () => (
   <div>
-    <SectionSubTitle>Certificates</SectionSubTitle>
+    <SectionSubTitle>Certificates ({CertificateData.length})</SectionSubTitle>
     <CertificateContainer>
       {CertificateData.map(({ name, organization, issue_date, certificate_id, certificate_url }) => (
         <CertificateLink key={name} href={certificate_url} target='_blank'>
