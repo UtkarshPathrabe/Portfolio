@@ -74,7 +74,7 @@ export const BadgesContainer = styled.div`
 export const BadgeParentContainer = styled.div`
     width: 100%;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     column-gap: 2rem;
     row-gap: 2rem;
     @media ${(props) => props.theme.breakpoints.lg} {
@@ -100,13 +100,9 @@ export const Badge = styled.div`
 `;
 
 export const BadgeImage = styled.img`
-    width: 60%;
+    width: 75%;
     background-color: ${(props) => props.backgroundColor};
     border-radius: 10px;
-    padding: 30px;
-    @media ${(props) => props.theme.breakpoints.sm} {
-        padding: 20px;
-    }
 `;
 
 export const Title = styled.h4`
@@ -132,6 +128,7 @@ export const Text = styled.p`
     line-height: 40px;
     font-weight: 200;
     color: rgba(255, 255, 255, 0.5);
+    text-align: center;
 
     @media ${(props) => props.theme.breakpoints.md} {
         font-size: 20px;
