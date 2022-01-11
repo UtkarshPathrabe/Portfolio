@@ -9,7 +9,7 @@ import * as Highcharts from 'highcharts';
 import HighchartsReact from 'highcharts-react-official';
 
 import { SectionSubTitle, SectionText } from '../../../styles/GlobalComponents';
-import { TitleLink, Content, ErrorContent, ChartContainer, ChartParentContainer, TextContainer, ContentContainer } from './LeetCodeStyles';
+import { TitleLink, Content, ErrorContent, ChartContainer, ChartParentContainer, TextContainer, ContentContainer, BadgesContainer, BadgeParentContainer, Badge, BadgeImage, Title, Text } from './LeetCodeStyles';
 import { getDateDiffInDays, fetcher } from '../../../utilities/utils';
 
 const LeetCode = () => {
@@ -28,6 +28,7 @@ const LeetCode = () => {
         );
     } else {
         const ranking = get(data, ['data', 'matchedUser', 'profile', 'ranking']);
+        const badges = get(data, ['data', 'matchedUser', 'badges']);
         const allProblemsSolved = get(data, ['data', 'matchedUser', 'submitStats', 'acSubmissionNum', 0, 'count']);
         const allProblems = get(data, ['data', 'allQuestionsCount', 0, 'count']);
         const easyProblemsSolved = get(data, ['data', 'matchedUser', 'submitStats', 'acSubmissionNum', 1, 'count']);
@@ -231,6 +232,17 @@ const LeetCode = () => {
                         />
                     </ChartContainer>
                 </ChartParentContainer>
+                <BadgesContainer>
+                    <Title>LeetCode Badges</Title>
+                    <BadgeParentContainer>
+                        {badges.map(({ displayName, icon }) => (
+                            <Badge key={`${displayName}_${icon}`}>
+                                <BadgeImage src={`https://leetcode.com${icon}`} alt={displayName} />
+                                <Text>{displayName}</Text>
+                            </Badge>
+                        ))}
+                    </BadgeParentContainer>
+                </BadgesContainer>
             </ContentContainer>
         );
     }
