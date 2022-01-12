@@ -1,4 +1,4 @@
-import { useState, createContext } from 'react';
+import { useState, createContext, useEffect } from 'react';
 
 import Footer from '../components/Footer/Footer';
 import Toolbar from '../components/Toolbar/Toolbar';
@@ -16,6 +16,19 @@ const Layout = ({children}) => {
   const [technologiesIsOpen, setTechnologiesIsOpen] = useState(false);
   const [accomplishmentsIsOpen, setAccomplishmentsIsOpen] = useState(false);
   const [paintingsIsOpen, setPaintingsIsOpen] = useState(false);
+
+  useEffect(() => {
+    const hash = window.location.hash;
+    if (hash === PROJECTS_URL) {
+      setProjectsIsOpen(true);
+    } else if (hash === TECHNOLOGIES_URL) {
+      setTechnologiesIsOpen(true);
+    } else if (hash === ACCOMPLISHMENTS_URL) {
+      setAccomplishmentsIsOpen(true);
+    } else if (hash === PAINTINGS_URL) {
+      setPaintingsIsOpen(true);
+    }
+  }, []);
 
   const drawerToggleClickHandler = () => {
     setSideDrawerOpen(current => !current);
