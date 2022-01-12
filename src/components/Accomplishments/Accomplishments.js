@@ -15,7 +15,7 @@ const GitHubData = [
 const Accomplishments = () => (
   <>
     <GitHubStatsContainer>
-      <GitHubStats src={'https://github-readme-stats.vercel.app/api?username=UtkarshPathrabe&show_icons=true&hide=prs,issues,contribs&theme=github_dark&border_radius=10px&count_private=true&include_all_commits=true'} alt='github_stats' />
+      <GitHubStats src={'https://github-readme-stats.vercel.app/api?username=UtkarshPathrabe&show_icons=true&hide=prs,issues,contribs&theme=github_dark&border_radius=10px&count_private=true'} alt='github_stats' />
       <GitHubMostUsedLanguages src={'https://github-readme-stats.vercel.app/api/top-langs/?username=UtkarshPathrabe&theme=github_dark&border_radius=10px'} alt='github_most_used_languages' />
     </GitHubStatsContainer>
     <Boxes>
