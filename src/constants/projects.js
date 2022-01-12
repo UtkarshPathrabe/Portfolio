@@ -99,6 +99,15 @@ export const projects = [
       id: 10,
     },
     {
+      title: 'Drum Kit',
+      description: "Drum Kit created using HTML, CSS and JavaScript.",
+      image: '/images/projects/27.png',
+      tags: ['JavaScript', 'HTML', 'CSS'],
+      source: 'https://github.com/UtkarshPathrabe/Drum-Kit-JS',
+      visit: 'https://utkarshpathrabe.github.io/Drum-Kit-JS/',
+      id: 27,
+    },
+    {
       title: 'Slide in on Scroll',
       description: "Slide in on Scroll created using HTML, CSS and JavaScript.",
       image: '/images/projects/11.gif',
