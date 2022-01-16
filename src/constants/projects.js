@@ -234,6 +234,15 @@ export const projects = [
       id: 30,
     },
     {
+      title: 'Type Ahead',
+      description: "Type Ahead search created using HTML, CSS and JavaScript.",
+      image: '/images/projects/31.png',
+      tags: ['JavaScript', 'HTML', 'CSS'],
+      source: 'https://github.com/UtkarshPathrabe/Type-Ahead-JS',
+      visit: 'https://utkarshpathrabe.github.io/Type-Ahead-JS/',
+      id: 31,
+    },
+    {
       title: 'World Clock',
       description: "This application shows the current time in different time zones of the world.",
       image: '/images/projects/6.png',
