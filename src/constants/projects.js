@@ -243,7 +243,7 @@ export const projects = [
       id: 31,
     },
     {
-      title: 'Multi Select Checkboxes',
+      title: 'Multi Select',
       description: "Multi Select Checkboxes created using HTML5, CSS and JavaScript.",
       image: '/images/projects/32.png',
       tags: ['JavaScript', 'HTML', 'CSS'],
