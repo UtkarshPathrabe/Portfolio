@@ -225,6 +225,15 @@ export const projects = [
       id: 29,
     },
     {
+      title: 'Picture Frame',
+      description: "Picture frame created using HTML5, CSS and JavaScript where we update CSS variables using JS.",
+      image: '/images/projects/30.png',
+      tags: ['JavaScript', 'HTML', 'CSS'],
+      source: 'https://github.com/UtkarshPathrabe/Playing-with-CSS-Variables',
+      visit: 'https://utkarshpathrabe.github.io/Playing-with-CSS-Variables/',
+      id: 30,
+    },
+    {
       title: 'World Clock',
       description: "This application shows the current time in different time zones of the world.",
       image: '/images/projects/6.png',
