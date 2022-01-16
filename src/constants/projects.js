@@ -243,6 +243,15 @@ export const projects = [
       id: 31,
     },
     {
+      title: 'Multi Select Checkboxes',
+      description: "Multi Select Checkboxes created using HTML5, CSS and JavaScript.",
+      image: '/images/projects/32.png',
+      tags: ['JavaScript', 'HTML', 'CSS'],
+      source: 'https://github.com/UtkarshPathrabe/Hold-Shift-and-Check-Checkboxes',
+      visit: 'https://utkarshpathrabe.github.io/Hold-Shift-and-Check-Checkboxes/',
+      id: 32,
+    },
+    {
       title: 'World Clock',
       description: "This application shows the current time in different time zones of the world.",
       image: '/images/projects/6.png',
