@@ -287,4 +287,13 @@ export const projects = [
       visit: 'https://utkarshpathrabe.github.io/Sort-List-Ignoring-Articles--A-An-The-/',
       id: 18,
     },
+    {
+      title: 'Canvas',
+      description: "Colorful Canvas created using HTML, CSS and JavaScript.",
+      image: '/images/projects/33.png',
+      tags: ['JavaScript', 'HTML', 'CSS'],
+      source: 'https://github.com/UtkarshPathrabe/Fun-with-HTML5-Canvas',
+      visit: 'https://utkarshpathrabe.github.io/Fun-with-HTML5-Canvas/',
+      id: 33,
+    },
   ];
