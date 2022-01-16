@@ -216,6 +216,15 @@ export const projects = [
       id: 20,
     },
     {
+      title: 'Drawing Canvas',
+      description: "Drawing Canvas created using HTML, CSS and JavaScript.",
+      image: '/images/projects/29.png',
+      tags: ['JavaScript', 'HTML', 'CSS'],
+      source: 'https://github.com/UtkarshPathrabe/HTML5-Canvas',
+      visit: 'https://utkarshpathrabe.github.io/HTML5-Canvas/',
+      id: 29,
+    },
+    {
       title: 'World Clock',
       description: "This application shows the current time in different time zones of the world.",
       image: '/images/projects/6.png',
