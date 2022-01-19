@@ -2,8 +2,8 @@ export const projects = [
     {
       title: 'Travel Advisor',
       description: "This is an advanced Travel Companion Application created using ReactJS. It list all the nearby hotels, restaurants and attractions.",
-        image: '/images/projects/1.png',
-        tags: ['Express', 'React', 'Node', 'RapidAPI', 'Maps'],
+      image: '/images/projects/1.png',
+      tags: ['Express', 'React', 'Node', 'RapidAPI', 'Maps'],
       source: 'https://github.com/UtkarshPathrabe/travel_advisor',
       visit: 'https://utkarsh-travel-advisor.netlify.app/',
       id: 1,
@@ -11,8 +11,8 @@ export const projects = [
     {
       title: 'Cryptoverse',
       description: "Cryptocurrency Application created using ReactJS. It provides details on the top cryptocurrencies and cryptocurrency news.",
-        image: '/images/projects/34.png',
-        tags: ['React', 'Cryptocurrency', 'RapidAPI', 'Node'],
+      image: '/images/projects/34.png',
+      tags: ['React', 'Cryptocurrency', 'RapidAPI', 'Node'],
       source: 'https://github.com/UtkarshPathrabe/Cryptoverse',
       visit: 'https://utkarsh-cryptoverse.netlify.app/',
       id: 34,
@@ -29,8 +29,8 @@ export const projects = [
     {
       title: 'Realtime Chat',
       description: "This Realtime Chat Application is using ReactJS on the front end and NodeJS + Socket.io web socket library on the back end.",
-        image: '/images/projects/3.png',
-        tags: ['React', 'SocketIO', 'Express', 'Node'],
+      image: '/images/projects/3.png',
+      tags: ['React', 'SocketIO', 'Express', 'Node'],
       source: 'https://github.com/UtkarshPathrabe/utkarsh-react-chat-application',
       visit: 'https://utkarsh-react-chat-app.netlify.app/',
       id: 3,
@@ -38,8 +38,8 @@ export const projects = [
     {
       title: 'Weather App PWA',
       description: "Get current weather information using this Progressive Web App (PWA) created using ReactJS.",
-        image: '/images/projects/9.png',
-        tags: ['React', 'PWA', 'WeatherAPI'],
+      image: '/images/projects/9.png',
+      tags: ['React', 'PWA', 'WeatherAPI'],
       source: 'https://github.com/UtkarshPathrabe/Weather-App-PWA',
       visit: 'https://utkarsh-weather-app-pwa.netlify.app/',
       id: 9,
