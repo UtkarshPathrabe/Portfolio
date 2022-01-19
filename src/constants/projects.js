@@ -9,6 +9,15 @@ export const projects = [
       id: 1,
     },
     {
+      title: 'Cryptoverse',
+      description: "Cryptocurrency Application created using ReactJS. It provides details on the top cryptocurrencies and cryptocurrency news.",
+        image: '/images/projects/34.png',
+        tags: ['React', 'Cryptocurrency', 'RapidAPI', 'Node'],
+      source: 'https://github.com/UtkarshPathrabe/Cryptoverse',
+      visit: 'https://utkarsh-cryptoverse.netlify.app/',
+      id: 34,
+    },
+    {
       title: 'Realtor',
       description: "This is a Real-Estate Application created using NextJS and ReactJS. It lists all the real estate available for sale and rent in UAE.",
       image: '/images/projects/2.jpg',
