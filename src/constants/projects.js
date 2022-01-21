@@ -27,6 +27,15 @@ export const projects = [
       id: 2,
     },
     {
+      title: 'Chat Ping',
+      description: "Realtime Chat application created using ReactJS, with Social Auth and dedicated chat APIs/sockets.",
+      image: '/images/projects/35.png',
+      tags: ['React', 'Firebase', 'Chat Engine', 'JS'],
+      source: 'https://github.com/UtkarshPathrabe/Chat-Ping',
+      visit: 'https://chat-ping.netlify.app/',
+      id: 35,
+    },
+    {
       title: 'Realtime Chat',
       description: "This Realtime Chat Application is using ReactJS on the front end and NodeJS + Socket.io web socket library on the back end.",
       image: '/images/projects/3.png',
