@@ -149,7 +149,7 @@ export const projects = [
       image: '/images/projects/4.png',
       tags: ['JavaScript', 'Web Speech API'],
       source: 'https://github.com/UtkarshPathrabe/Speech-Recognition',
-      visit: 'https://speech-recognition-js.herokuapp.com/',
+      visit: 'https://utkarshpathrabe.github.io/Speech-Recognition/',
       id: 4,
     },
     {
