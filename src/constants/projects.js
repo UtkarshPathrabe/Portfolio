@@ -212,7 +212,7 @@ export const projects = [
       image: '/images/projects/5.png',
       tags: ['JavaScript'],
       source: 'https://github.com/UtkarshPathrabe/Photo-Booth',
-      visit: 'https://photo-booth-js.herokuapp.com/',
+      visit: 'https://utkarshpathrabe.github.io/Photo-Booth/',
       id: 5,
     },
     {
