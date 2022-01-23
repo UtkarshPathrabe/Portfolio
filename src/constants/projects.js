@@ -194,7 +194,7 @@ export const projects = [
       image: '/images/projects/7.gif',
       tags: ['ThreeJS', 'JavaScript'],
       source: 'https://github.com/UtkarshPathrabe/Thanos-Portal-Effect-using-Three.js',
-      visit: 'https://thanos-portal.herokuapp.com/',
+      visit: 'https://utkarshpathrabe.github.io/Thanos-Portal-Effect-using-Three.js/',
       id: 7,
     },
     {
