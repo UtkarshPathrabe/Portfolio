@@ -1,5 +1,12 @@
 const CertificateData = [
     {
+        name: 'Visual Perception for Self-Driving Cars',
+        organization: 'Coursera',
+        issue_date: 'Jan 29, 2022',
+        certificate_id: 'MGAC7TV5CJNF',
+        certificate_url: 'https://www.coursera.org/account/accomplishments/certificate/MGAC7TV5CJNF',
+    },
+    {
         name: 'Command Line in Linux',
         organization: 'Coursera',
         issue_date: 'Jan 07, 2022',
