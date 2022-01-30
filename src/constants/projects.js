@@ -54,6 +54,15 @@ export const projects = [
       id: 9,
     },
     {
+      title: 'Gericht Restaurant',
+      description: "Modern UI/UX Restaurant Landing Page Website created using ReactJS.",
+      image: '/images/projects/36.png',
+      tags: ['React', 'JS', 'Responsive', 'UX/UI'],
+      source: 'https://github.com/UtkarshPathrabe/Gericht-Restaurant',
+      visit: 'https://utkarsh-gericht-restaurant.netlify.app/',
+      id: 36,
+    },
+    {
       title: 'RiceRocks',
       description: "RiceRocks game created using Python. Visit the game and click on the play button to launch the game.",
       image: '/images/projects/21.png',
