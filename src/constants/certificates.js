@@ -1,5 +1,12 @@
 const CertificateData = [
     {
+        name: 'Introduction to Docker: The Basics',
+        organization: 'Coursera',
+        issue_date: 'Feb 02, 2022',
+        certificate_id: '54JQHJN2SJWS',
+        certificate_url: 'https://www.coursera.org/account/accomplishments/certificate/54JQHJN2SJWS',
+    },
+    {
         name: 'Visual Perception for Self-Driving Cars',
         organization: 'Coursera',
         issue_date: 'Jan 29, 2022',
