@@ -66,7 +66,7 @@ export const projects = [
       title: 'React Table Demo',
       description: "Demo code for different use-cases using react-table NPM package.",
       image: '/images/projects/37.png',
-      tags: ['React', 'JS', 'Reac Table'],
+      tags: ['React', 'JS', 'React Table'],
       source: 'https://github.com/UtkarshPathrabe/React-Table-Demo',
       visit: 'https://utkarsh-react-table-demo.netlify.app/',
       id: 37,
