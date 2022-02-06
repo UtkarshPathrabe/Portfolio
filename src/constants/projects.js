@@ -63,6 +63,15 @@ export const projects = [
       id: 36,
     },
     {
+      title: 'React Table Demo',
+      description: "Demo code for different use-cases using react-table NPM package.",
+      image: '/images/projects/37.png',
+      tags: ['React', 'JS', 'Reac Table'],
+      source: 'https://github.com/UtkarshPathrabe/React-Table-Demo',
+      visit: 'https://utkarsh-react-table-demo.netlify.app/',
+      id: 37,
+    },
+    {
       title: 'RiceRocks',
       description: "RiceRocks game created using Python. Visit the game and click on the play button to launch the game.",
       image: '/images/projects/21.png',
