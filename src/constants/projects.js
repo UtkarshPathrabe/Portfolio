@@ -180,6 +180,15 @@ export const projects = [
       id: 41,
     },
     {
+      title: 'Tropic World Model',
+      description: "Tropic world 3D model created using Three.js",
+      image: '/images/projects/42.png',
+      tags: ['ThreeJS', 'JavaScript'],
+      source: 'https://github.com/UtkarshPathrabe/Tropic-World-3D-Model',
+      visit: 'https://utkarshpathrabe.github.io/Tropic-World-3D-Model/',
+      id: 42,
+    },
+    {
       title: 'Drum Kit',
       description: "Drum Kit created using HTML, CSS and JavaScript.",
       image: '/images/projects/27.png',
