@@ -162,6 +162,15 @@ export const projects = [
       id: 39,
     },
     {
+      title: 'Space Scroll Animation',
+      description: "Space scroll animation created using Three.js for a dummy portfolio site.",
+      image: '/images/projects/40.gif',
+      tags: ['ThreeJS', 'JavaScript'],
+      source: 'https://github.com/UtkarshPathrabe/Space-Scroll-Animation',
+      visit: 'https://utkarshpathrabe.github.io/Space-Scroll-Animation/',
+      id: 40,
+    },
+    {
       title: 'Drum Kit',
       description: "Drum Kit created using HTML, CSS and JavaScript.",
       image: '/images/projects/27.png',
