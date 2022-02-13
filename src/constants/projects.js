@@ -154,15 +154,6 @@ export const projects = [
     },
     {
       title: 'Porche 911 Model',
-      description: "Alfa Romeo Stradale 1967 3D Car Model created using Three.js",
-      image: '/images/projects/39.png',
-      tags: ['ThreeJS', 'JavaScript'],
-      source: 'https://github.com/UtkarshPathrabe/Porche-911-930-Turbo-1975-3D-Model',
-      visit: 'https://utkarshpathrabe.github.io/Porche-911-930-Turbo-1975-3D-Model/',
-      id: 39,
-    },
-    {
-      title: 'Porche 911 Model',
       description: "Porche 911 930 Turbo 1975 3D Car Model created using Three.js",
       image: '/images/projects/39.png',
       tags: ['ThreeJS', 'JavaScript'],
