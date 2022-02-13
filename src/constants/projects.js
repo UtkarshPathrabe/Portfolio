@@ -171,6 +171,15 @@ export const projects = [
       id: 40,
     },
     {
+      title: 'Arid World Model',
+      description: "Arid world 3D model created using Three.js",
+      image: '/images/projects/41.png',
+      tags: ['ThreeJS', 'JavaScript'],
+      source: 'https://github.com/UtkarshPathrabe/Arid-World-3D-Model',
+      visit: 'https://utkarshpathrabe.github.io/Arid-World-3D-Model/',
+      id: 41,
+    },
+    {
       title: 'Drum Kit',
       description: "Drum Kit created using HTML, CSS and JavaScript.",
       image: '/images/projects/27.png',
