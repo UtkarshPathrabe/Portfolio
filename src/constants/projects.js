@@ -72,6 +72,15 @@ export const projects = [
       id: 37,
     },
     {
+      title: 'React Router Demo',
+      description: "Demo code for different use-cases using react-router NPM package.",
+      image: '/images/projects/43.png',
+      tags: ['React', 'JS', 'React Router'],
+      source: 'https://github.com/UtkarshPathrabe/React-Router-Demo',
+      visit: 'https://utkarsh-react-router-demo.netlify.app/',
+      id: 43,
+    },
+    {
       title: 'RiceRocks',
       description: "RiceRocks game created using Python. Visit the game and click on the play button to launch the game.",
       image: '/images/projects/21.png',
