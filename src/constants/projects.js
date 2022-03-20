@@ -81,6 +81,15 @@ export const projects = [
       id: 43,
     },
     {
+      title: 'React Testing Library',
+      description: "React Testing Library and Jest are used for unit and integration tests of a Todo App created using ReactJS.",
+      image: '/images/projects/44.png',
+      tags: ['React', 'JS', 'ReactTestingLibrary', 'Jest'],
+      source: 'https://github.com/UtkarshPathrabe/React-Testing-Library-Demo',
+      visit: 'https://utkarsh-react-testing-library-demo.netlify.app/',
+      id: 44,
+    },
+    {
       title: 'RiceRocks',
       description: "RiceRocks game created using Python. Visit the game and click on the play button to launch the game.",
       image: '/images/projects/21.png',
