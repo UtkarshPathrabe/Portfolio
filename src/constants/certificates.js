@@ -1,5 +1,26 @@
 const CertificateData = [
     {
+        name: 'Self-Driving Cars Specialization',
+        organization: 'Coursera',
+        issue_date: 'Mar 20, 2022',
+        certificate_id: 'DY7MKD43EM86',
+        certificate_url: 'https://www.coursera.org/account/accomplishments/certificate/DY7MKD43EM86',
+    },
+    {
+        name: 'Motion Planning for Self-Driving Cars',
+        organization: 'Coursera',
+        issue_date: 'Mar 20, 2022',
+        certificate_id: '77SZUXDF6RY6',
+        certificate_url: 'https://www.coursera.org/account/accomplishments/certificate/77SZUXDF6RY6',
+    },
+    {
+        name: 'Preparing for Your Review',
+        organization: 'LinkedIn',
+        issue_date: 'Mar 14, 2022',
+        certificate_id: '',
+        certificate_url: 'https://www.linkedin.com/learning/certificates/3a3a8fb3fccffabfc919e02147f3462a198ecd024bdb8d41cdeac31a19d464a4?u=2057988',
+    },
+    {
         name: 'Introduction to Docker: The Basics',
         organization: 'Coursera',
         issue_date: 'Feb 02, 2022',
