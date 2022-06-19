@@ -27,6 +27,15 @@ export const projects = [
       id: 2,
     },
     {
+      title: 'Golds Gym',
+      description: "Golds Gym Application created using ReactJS. It provides details on the various gym exercises and provides links for youtube tutorial videos.",
+      image: '/images/projects/45.png',
+      tags: ['React', 'Node', 'RapidAPI', 'Gym'],
+      source: 'https://github.com/UtkarshPathrabe/Golds-Gym',
+      visit: 'https://utkarsh-golds-gym.netlify.app/',
+      id: 45,
+    },
+    {
       title: 'Chat Ping',
       description: "Realtime Chat application created using ReactJS, with Social Auth and dedicated chat APIs/sockets.",
       image: '/images/projects/35.png',
