@@ -1,5 +1,14 @@
 export const projects = [
     {
+      title: 'Filmpire',
+      description: "Filmpire is an application where you can filter movies by genres, check-out latest movies, movie details and movie trailers created using ReactJS.",
+      image: '/images/projects/46.png',
+      tags: ['React', 'Material UI', 'TMDB', 'Redux'],
+      source: 'https://github.com/UtkarshPathrabe/Filmpire',
+      visit: 'https://utkarsh-filmpire.netlify.app/',
+      id: 46,
+    },
+    {
       title: 'Travel Advisor',
       description: "This is an advanced Travel Companion Application created using ReactJS. It list all the nearby hotels, restaurants and attractions.",
       image: '/images/projects/1.png',
