@@ -1,7 +1,7 @@
 export const projects = [
     {
       title: 'Filmpire',
-      description: "Filmpire is an application where you can filter movies by genres, check-out latest movies, movie details and movie trailers created using ReactJS.",
+      description: "Filmpire is an application where you can filter movies by genres, check-out latest movies, movie and crew details and movie trailers.",
       image: '/images/projects/46.png',
       tags: ['React', 'Material UI', 'TMDB', 'Redux'],
       source: 'https://github.com/UtkarshPathrabe/Filmpire',
