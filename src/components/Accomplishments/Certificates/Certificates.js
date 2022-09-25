@@ -1,5 +1,5 @@
 import React from 'react';
-import { SiCoursera, SiHackerrank, SiLinkedin } from 'react-icons/si';
+import { SiCoursera, SiHackerrank, SiLinkedin, SiReact } from 'react-icons/si';
 
 import { SectionSubTitle } from '../../../styles/GlobalComponents';
 import { CertificateContainer, CertificateLink, CertificateCard, Title, Text, HelperText } from './CertificatesStyles';
@@ -14,6 +14,8 @@ const getOrganizationIcon = (org) => {
             return SiHackerrank;
         case 'linkedin':
             return SiLinkedin;
+        default:
+            return SiReact;
     }
 };
 
