@@ -9,6 +9,15 @@ export const projects = [
       id: 46,
     },
     {
+      title: 'Lyriks',
+      description: "Lyriks Music application created using ReactJS, Redux Toolkit, TailwindCSS and Shazam Core API from Rapid API",
+      image: '/images/projects/48.png',
+      tags: ['React', 'Redux', 'RapidAPI', 'TailwindCSS'],
+      source: 'https://github.com/UtkarshPathrabe/Lyriks-Music-App',
+      visit: 'https://utkarsh-lyriks.netlify.app/',
+      id: 48,
+    },
+    {
       title: 'Travel Advisor',
       description: "This is an advanced Travel Companion Application created using ReactJS. It list all the nearby hotels, restaurants and attractions.",
       image: '/images/projects/1.png',
