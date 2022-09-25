@@ -1,5 +1,19 @@
 const CertificateData = [
     {
+        name: 'NFT Marketplace Course',
+        organization: 'JS Mastery Pro',
+        issue_date: 'Sep 15, 2022',
+        certificate_id: '72497',
+        certificate_url: 'https://certificate.jsmastery.pro/verify/daac5cad1933',
+    },
+    {
+        name: 'React Mastery Course',
+        organization: 'JS Mastery Pro',
+        issue_date: 'Jun 26, 2022',
+        certificate_id: '56294',
+        certificate_url: 'https://certificate.jsmastery.pro/verify/2a4d00e02013',
+    },
+    {
         name: 'Self-Driving Cars Specialization',
         organization: 'Coursera',
         issue_date: 'Mar 20, 2022',
