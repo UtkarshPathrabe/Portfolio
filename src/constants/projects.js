@@ -10,7 +10,7 @@ export const projects = [
     },
     {
       title: 'Lyriks',
-      description: "Lyriks Music application created using ReactJS, Redux Toolkit, TailwindCSS and Shazam Core API from Rapid API",
+      description: "Lyriks Music application created using ReactJS, Redux Toolkit, TailwindCSS and Shazam Core API from Rapid API.",
       image: '/images/projects/48.png',
       tags: ['React', 'Redux', 'RapidAPI', 'TailwindCSS'],
       source: 'https://github.com/UtkarshPathrabe/Lyriks-Music-App',
@@ -34,6 +34,24 @@ export const projects = [
       source: 'https://github.com/UtkarshPathrabe/Cryptoverse',
       visit: 'https://utkarsh-cryptoverse.netlify.app/',
       id: 34,
+    },
+    {
+      title: 'CryptoKet dApp',
+      description: "NFT Marketplace uses Next.js, Tailwind and popular Web3 concepts and technologies, smart contract development, Solidity, IPFS and more to facilitate trading of Non-Fungible Tokens.",
+      image: '/images/projects/49.png',
+      tags: ['React', 'Ethereum', 'Solidity', 'TailwindCSS'],
+      source: 'https://github.com/UtkarshPathrabe/CryptoKet-NFT-Marketplace',
+      visit: 'https://crypto-ket-nft-marketplace.vercel.app/',
+      id: 49,
+    },
+    {
+      title: 'Uniswap dApp',
+      description: "Uniswap dApp react application with metamask pairing, live smart contract data fetching and the ability to use our own ERC20 tokens and swap them.",
+      image: '/images/projects/50.png',
+      tags: ['React', 'Smart-Contract', 'ERC20', 'TailwindCSS'],
+      source: 'https://github.com/UtkarshPathrabe/Crypto-Exchange-Uniswap-dApp',
+      visit: 'https://utkarsh-uniswap.netlify.app/',
+      id: 50,
     },
     {
       title: 'Realtor',
