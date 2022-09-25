@@ -237,7 +237,7 @@ const LeetCode = () => {
                     <BadgeParentContainer>
                         {badges.map(({ displayName, icon }) => (
                             <Badge key={`${displayName}_${icon}`}>
-                                <BadgeImage src={`https://leetcode.com${icon}`} alt={displayName} />
+                                <BadgeImage src={(icon && String(icon).startsWith("https://")) ? icon : `https://leetcode.com${icon}`} alt={displayName} />
                                 <Text>{displayName}</Text>
                             </Badge>
                         ))}
