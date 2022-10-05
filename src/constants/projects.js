@@ -18,6 +18,15 @@ export const projects = [
       id: 48,
     },
     {
+      title: 'Youtube',
+      description: "Youtube clone application created using ReactJS, Material UI 5 and Youtube v3 API from Rapid API.",
+      image: '/images/projects/51.png',
+      tags: ['React', 'Material UI', 'RapidAPI', 'Youtube'],
+      source: 'https://github.com/UtkarshPathrabe/Youtube-Clone',
+      visit: 'https://utkarsh-youtube.netlify.app/',
+      id: 51,
+    },
+    {
       title: 'Travel Advisor',
       description: "This is an advanced Travel Companion Application created using ReactJS. It list all the nearby hotels, restaurants and attractions.",
       image: '/images/projects/1.png',
