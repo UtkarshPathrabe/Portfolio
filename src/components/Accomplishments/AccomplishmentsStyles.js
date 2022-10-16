@@ -78,7 +78,7 @@ export const BoxText = styled.p`
 
 export const GitHubStats = styled.img`
   height: 100%;
-  width: 75%;
+  width: 66%;
   @media ${props => props.theme.breakpoints.sm} {
     width: 100%;
     margin-bottom: 8px;
@@ -87,7 +87,7 @@ export const GitHubStats = styled.img`
 
 export const GitHubMostUsedLanguages = styled.img`
   height: 100%;
-  width: 24%;
+  width: 32%;
   @media ${props => props.theme.breakpoints.sm} {
     width: 100%;
   }
