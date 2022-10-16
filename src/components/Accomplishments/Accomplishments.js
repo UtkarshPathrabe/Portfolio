@@ -16,7 +16,7 @@ const Accomplishments = () => (
   <>
     <GitHubStatsContainer>
       <GitHubStats src={'https://github-readme-stats.vercel.app/api?username=UtkarshPathrabe&show_icons=true&hide=prs,issues,contribs&theme=github_dark&border_radius=10px&count_private=true'} alt='github_stats' />
-      <GitHubMostUsedLanguages src={'https://github-readme-stats.vercel.app/api/top-langs/?username=UtkarshPathrabe&theme=github_dark&border_radius=10px'} alt='github_most_used_languages' />
+      <GitHubMostUsedLanguages src={'https://github-readme-stats.vercel.app/api/top-langs/?username=UtkarshPathrabe&theme=github_dark&border_radius=10px&layout=compact&langs_count=10'} alt='github_most_used_languages' />
     </GitHubStatsContainer>
     <GitHubProfileStats src="https://github-profile-trophy.vercel.app/?username=utkarshpathrabe&theme=gruvbox&column=5&margin-w=2&margin-h=2&no-bg=true&no-frame=true&rank=-C,-?" alt="github profile stats" />
     <Boxes>
