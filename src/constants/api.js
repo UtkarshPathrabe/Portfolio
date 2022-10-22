@@ -1,0 +1,1 @@
+export const BASE_URL = 'https://utkarsh-personal-website-server.vercel.app/';
