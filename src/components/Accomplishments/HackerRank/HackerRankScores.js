@@ -6,9 +6,10 @@ import { Bars } from 'react-loading-icons';
 import { SectionText } from '../../../styles/GlobalComponents';
 import { ErrorContent, ScoresContainer, ScoreParentContainer, ScoreContainer, Text, Title } from './HackerRankStyles';
 import { fetcher } from '../../../utilities/utils';
+import { BASE_URL } from '../../../constants/api';
 
 const HackerRankScores = () => {
-    const { data, error } = useSWR('https://nodejs-server-githubio-page.herokuapp.com/hackerrank_scores', fetcher);
+    const { data, error } = useSWR(`${BASE_URL}hackerrank_scores`, fetcher);
     let content;
     if (error) {
         content = (
