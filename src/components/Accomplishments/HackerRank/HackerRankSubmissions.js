@@ -8,9 +8,10 @@ import HighchartsReact from 'highcharts-react-official';
 import { SectionText } from '../../../styles/GlobalComponents';
 import { ErrorContent, ChartContainer } from './HackerRankStyles';
 import { fetcher } from '../../../utilities/utils';
+import { BASE_URL } from '../../../constants/api';
 
 const HackerRankSubmissions = () => {
-    const { data, error } = useSWR('https://nodejs-server-githubio-page.herokuapp.com/hackerrank_submission_histories', fetcher);
+    const { data, error } = useSWR(`${BASE_URL}hackerrank_submission_histories`, fetcher);
     let content;
     if (error) {
         content = (
