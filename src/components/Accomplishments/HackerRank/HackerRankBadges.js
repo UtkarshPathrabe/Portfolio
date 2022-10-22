@@ -7,6 +7,7 @@ import { Bars } from 'react-loading-icons';
 import { SectionText } from '../../../styles/GlobalComponents';
 import { ErrorContent, BadgesContainer, BadgeParentContainer, Badge, BadgeImage, HelperText, Text, Title, StarContainer } from './HackerRankStyles';
 import { fetcher } from '../../../utilities/utils';
+import { BASE_URL } from '../../../constants/api';
 
 const badgesImagesURL = new Map();
 badgesImagesURL['/domains/data-structures'] = 'https://hrcdn.net/community-frontend/assets/badges/problem-solving-ecaf59a612.svg';
@@ -46,7 +47,7 @@ const getLevelColor = (level) => {
 };
 
 const HackerRankBadges = () => {
-    const { data, error } = useSWR('https://nodejs-server-githubio-page.herokuapp.com/hackerrank_badges', fetcher);
+    const { data, error } = useSWR(`${BASE_URL}hackerrank_badges`, fetcher);
     let content;
     if (error) {
         content = (
