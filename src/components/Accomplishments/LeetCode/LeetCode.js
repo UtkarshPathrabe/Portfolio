@@ -11,9 +11,10 @@ import HighchartsReact from 'highcharts-react-official';
 import { SectionSubTitle, SectionText } from '../../../styles/GlobalComponents';
 import { TitleLink, Content, ErrorContent, ChartContainer, ChartParentContainer, TextContainer, ContentContainer, BadgesContainer, BadgeParentContainer, Badge, BadgeImage, Title, Text } from './LeetCodeStyles';
 import { getDateDiffInDays, fetcher } from '../../../utilities/utils';
+import { BASE_URL } from '../../../constants/api';
 
 const LeetCode = () => {
-    const { data, error } = useSWR('https://nodejs-server-githubio-page.herokuapp.com/leetcode_data', fetcher);
+    const { data, error } = useSWR(`${BASE_URL}leetcode_data`, fetcher);
     let content;
     if (error) {
         content = (
