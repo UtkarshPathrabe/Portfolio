@@ -81,6 +81,15 @@ export const projects = [
       id: 34,
     },
     {
+      title: 'Quizzer',
+      description: "Quiz application created using ReactJS.",
+      image: '/images/projects/53.png',
+      tags: ['React', 'Quizzer', 'MaterialUI'],
+      source: 'https://github.com/UtkarshPathrabe/Quizzer',
+      visit: 'https://utkarsh-pathrabe-quizzer.netlify.app/',
+      id: 53,
+    },
+    {
       title: 'Golds Gym',
       description: "Golds Gym Application created using ReactJS. It provides details on the various gym exercises and provides links for youtube tutorial videos.",
       image: '/images/projects/45.png',
