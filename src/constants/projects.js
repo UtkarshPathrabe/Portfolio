@@ -18,6 +18,15 @@ export const projects = [
       id: 52,
     },
     {
+      title: 'ShareMe',
+      description: "Full stack Social Media application which lets users share photos like Instagram.",
+      image: '/images/projects/54.png',
+      tags: ['React', 'Full-Stack', 'TailwindCSS', 'Sanity'],
+      source: 'https://github.com/UtkarshPathrabe/ShareMe',
+      visit: 'https://utkarsh-pathrabe-shareme.netlify.app/',
+      id: 54,
+    },
+    {
       title: 'Travel Advisor',
       description: "This is an advanced Travel Companion Application created using ReactJS. It list all the nearby hotels, restaurants and attractions.",
       image: '/images/projects/1.png',
