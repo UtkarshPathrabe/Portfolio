@@ -45,6 +45,15 @@ export const projects = [
       id: 2,
     },
     {
+      title: 'E-Commerce',
+      description: "Modern Full Stack E-Commerce Application created using NextJS, ReactJS, Sanity and Stripe.",
+      image: '/images/projects/56.png',
+      tags: ['React', 'NextJS', 'Sanity', 'Stripe'],
+      source: 'https://github.com/UtkarshPathrabe/E-Commercee',
+      visit: 'https://utkarsh-e-commerce.vercel.app/',
+      id: 56,
+    },
+    {
       title: 'Lyriks',
       description: "Lyriks Music application created using ReactJS, Redux Toolkit, TailwindCSS and Shazam Core API from Rapid API.",
       image: '/images/projects/48.png',
