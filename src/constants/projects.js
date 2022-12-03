@@ -49,7 +49,7 @@ export const projects = [
       description: "Modern Full Stack E-Commerce Application created using NextJS, ReactJS, Sanity and Stripe.",
       image: '/images/projects/56.png',
       tags: ['React', 'NextJS', 'Sanity', 'Stripe'],
-      source: 'https://github.com/UtkarshPathrabe/E-Commercee',
+      source: 'https://github.com/UtkarshPathrabe/E-Commerce',
       visit: 'https://utkarsh-e-commerce.vercel.app/',
       id: 56,
     },
