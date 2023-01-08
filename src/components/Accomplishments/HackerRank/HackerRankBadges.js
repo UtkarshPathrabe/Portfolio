@@ -53,7 +53,7 @@ const HackerRankBadges = () => {
         content = (
             <ErrorContent>
                 <BiErrorCircle size='3rem' />
-                <SectionText>Failed to load HackerRank scores data.</SectionText>
+                <SectionText>Failed to load HackerRank badges data.</SectionText>
             </ErrorContent>
         );
     }else if (!data) {
