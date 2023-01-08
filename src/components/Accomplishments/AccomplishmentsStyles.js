@@ -95,7 +95,7 @@ export const GitHubMostUsedLanguages = styled.img`
 
 export const GitHubProfileStats = styled.img`
   height: 100%;
-  width: 100%%;
+  width: 100%;
   @media ${props => props.theme.breakpoints.sm} {
     width: 100%;
   }
