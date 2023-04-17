@@ -8,8 +8,8 @@ import Certificates from './Certificates/Certificates';
 import TestScores from './TestScores/TestScores';
 
 const GitHubData = [
-  { number: 50, text: 'Open Source Projects'},
-  { number: 240, text: 'Github Followers', },
+  { number: 60, text: 'Open Source Projects'},
+  { number: 330, text: 'Github Followers', },
 ];
 
 const Accomplishments = () => (
